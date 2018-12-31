@@ -57,7 +57,9 @@ h1
 
 
 h2 {
-
+  font-family: 'Jumbo Parade', 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: normal !important;
+  color: rgb(108, 17, 168);
 }
 
 
