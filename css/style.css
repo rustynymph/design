@@ -41,9 +41,9 @@ text-decoration: underline overline;
   font-family: "Hacked";
   src: url("../fonts/HACKED.ttf");
   src: 
-  url("../fonts/Hacked.HACKED") format("woff"),
-  url("../fonts/Hacked.HACKED") format("eot"),
-  url("../fonts/Hacked.HACKED") format("svg");
+  url("../fonts/HACKED.woff") format("woff"),
+  url("../fonts/HACKED.eot") format("eot"),
+  url("../fonts/HACKED.svg") format("svg");
 }
 
 h1, h2
