@@ -46,8 +46,7 @@ text-decoration: underline overline;
   url("../fonts/HACKED.svg") format("svg");
 }
 
-h1
-{
+h1 {
   font-family: 'Jumbo Parade', 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   text-transform: uppercase;
   font-weight: normal;
@@ -55,7 +54,7 @@ h1
   font-size: 4.5rem;
 }
 
-h2{
+h2 {
   font-family: 'Jumbo Parade', 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   text-transform: uppercase;
   font-weight: normal;
@@ -65,7 +64,7 @@ h2{
 
 .subtitle {
   font-family: 'Hacked';
-  font-size:30px;
+  font-size: 30px;
 }
 
 h3,
@@ -79,13 +78,13 @@ h6 {
 }
 
 @media (max-width: 800px) {
-  h1, h2
-  {
+  h1, h2 {
     font-family: 'Jumbo Parade', 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     text-transform: uppercase;
     font-weight: normal;
     color: #000000;
     font-size: 1.5rem;
+    line-height: 2rem;
     margin: 0px;
   }
 
@@ -139,7 +138,7 @@ img {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
-iframe{
+iframe {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
