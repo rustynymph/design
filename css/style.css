@@ -51,7 +51,7 @@ h1 {
   text-transform: uppercase;
   font-weight: normal;
   color: #000000;
-  font-size: 4.5rem;
+  font-size: 3.8rem;
 }
 
 h2 {
@@ -64,17 +64,24 @@ h2 {
 
 .subtitle {
   font-family: 'Hacked';
-  font-size: 30px;
+  font-size: 2.0rem;
 }
 
-h3,
+h3 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 800;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #5B6670;
+}
 h4,
 h5,
 h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
+  font-weight: 300;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  color: #5B6670;
+  color: rgb(124, 138, 151);
 }
 
 @media (max-width: 800px) {
@@ -83,7 +90,7 @@ h6 {
     text-transform: uppercase;
     font-weight: normal;
     color: #000000;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 2rem;
     margin: 0px;
   }
@@ -92,13 +99,12 @@ h6 {
   h4,
   h5,
   h6 {
-    font-size: 1.0rem;
+    font-size: 1.3rem;
   }
 
   .subheading {
     font-size: 1.0rem;
   }
-
 
   .subtitle {
     font-size: 1.0rem;
@@ -109,15 +115,12 @@ h6 {
   }
 }
 
-
-
-
-
 nav {
   background-color: #000000 !important;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
+  text-align: right;
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
@@ -130,6 +133,19 @@ nav {
 
 .social-icons a:hover {
   background-color: #000000;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.0rem;
+  line-height: 2.25rem;
+  margin-right: 1rem;
 }
 
 img {
