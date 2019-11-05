@@ -121,6 +121,31 @@ h6 {
   text-transform: uppercase;
 }
 
+.degree {
+  font-weight: 800;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  color: #555454;
+}
+
+.employer {
+  font-weight: 800;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  color: #555454;
+}
+
+.position {
+  font-weight: 800;
+  color: #777575;
+}
+
+.dates {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #313131;
+}
+
 nav {
   background-color: #000000 !important;
 }
