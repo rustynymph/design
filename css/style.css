@@ -203,10 +203,10 @@ nav {
   margin-right: 1rem;
 }
 
-img {
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+/* img {
+  filter: gray; 
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1); 
 }
 
 iframe {
@@ -215,4 +215,4 @@ iframe {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-}
+} */
