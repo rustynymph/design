@@ -121,6 +121,14 @@ h6 {
   text-transform: uppercase;
 }
 
+.project-subtitle2 {
+  font-weight: 800;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  color: #555454;
+  font-size: 1.25rem;
+}
+
 .project-subtitle {
   font-weight: 800;
   letter-spacing: 0.02rem;
