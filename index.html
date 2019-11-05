@@ -26,502 +26,82 @@
 
   <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" style="text-align: right; float: right;">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Annie Kelly</span>
-        <!--<span class="d-none d-lg-block">
-          <img class="img-fluid img-profile mx-auto mb-2" style="text-align: right; float: right;" src="img/profile4.jpg" alt="">
-          rounded-circle
-        </span>-->
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#pubs">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#artist-workshops">Teaching & Workshops</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#artwork-technology">Projects</a>
-          </li>                  
-
-
-        </ul>
-      </div>
-    </nav>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <span class="d-block d-lg-none">Annie Kelly</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav" style="display: flex;">
+            <li class="nav-item" style="margin: 0;">
+              <a class="nav-link" href="/">Annie Kelly</a>
+            </li>
+            <li class="nav-item">
+              <span class="nav-link-static" style="margin-right: .4rem;">CV</span>
+            </li> 
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about/education" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Education</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about/experience" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Experience</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about/skills" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Skills</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about/publications" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Publications</a></li>  
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about/teaching" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Teaching</a></li>  
+            <li class="nav-item">
+              <span class="nav-link-static" style="margin-right: .4rem;">Projects</span>
+            </li>        
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/arcadia" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">ARcadia</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/blockytalky" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">BlockyTalky</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/the-cell" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">The Cell</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/the-show" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">The Show</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/universal-mind-control" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Universal Mind Control</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/audiovisual-playground" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Audiovisual Playground</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/doggyvision" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">DoggyVision</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/heartflush" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Heart Flush</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/metamorphosis" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">Metamorphosis</a></li>           
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/projects/bbq" style="text-transform: lowercase; font-weight: 500; font-size: .7rem;">BBQ</a></li>           
+          </ul>
+        </div>
+      </nav>
 
     <div class="container-fluid p-0">
+      <hr class="m-0">
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">Annie Kelly</h1>
-            <!--<span class="subtitle">PhD Student · Computer Scientist · Music L&#10084;&#xFE0E;ver</span><br>-->
-            <span><a href="mailto:name@email.com">annie.kelly@colorado.edu</a>
-            </span>
+            <span class="name" style="margin-right: .4rem;">Annie Kelly</span><br>
+            <span><a href="mailto:name@email.com">annie.kelly@colorado.edu</a></span>
             <br><br>
-
-          <p>
-            Hi there, I'm a M.S. Creative Technologies and Design student in the ATLAS Institute at the University of Colorado Boulder.
-            I also have a B.S. in Computer Science and a certificate in Technology, Arts, and Media from CU. I will graduate with my Masters in December 2019.
-            I currently work as a researcher and developer in the 
-            <a href="https://playfulcomputation.group">Laboratory for Playful Computation</a>. <!--I'm known as the resident "code witch." My adviser is <a href="http://benshapi.ro">Dr. Ben Shapiro</a>.-->
-            <br><br>
-            
-            I work on designing programmable technologies that are accessible to non-technical populations, with a specific focus on technologies for live performance art. <!--ways that we can empower adult women artists
-            to learn to engineer their own technologies for live performance. I use 
-            design research and feminist methodologies to achieve this – by looking at how
-            artists learn to work with interactive technologies, focusing on what artistic and computational practices they employ, and 
-            understanding what typical challenges they encounter in order to design better programmable technologies 
-            and curricula.
-             I do this by teaching artist workshops, hosting 
-            hackathon-style events, and collaborating with artists to help them learn to engineer their own technologies 
-            to achieve their creative visions.-->
-            <!--This is all part of  
-            the <a class="js-scroll-trigger" href="#artist-workshops"><i>Weird Code Club</i></a>. 
-            I am a computer scientist by training, and a musician by heart – in both domains it is 
-            common for women to be underrepresented as technicians and engineers. In particular, in the 
-            performing arts, the artists themselves have to contract or outsource much of the technical 
-            requirements of their projects to other people. In some situations this can be ideal, but in others it
-            can result in artists having to to relinquish a lot of their own creative control. This is 
-            an issue that I am passionate about addressing, and currently exploring in my work.-->
-            <br><br>
-            In addition to my research, I am usually working on several artistic endeavors at a time which include interactive
-            and immersive installations and playing in loud obnoxious rock bands.
-         </p>
-         <br>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/anniekkelly/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/rustynymph">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
+            <p>
+                Hi there, I'm a M.S. Creative Technologies and Design student in the ATLAS Institute at the University of Colorado Boulder.
+                I also have a B.S. in Computer Science and a certificate in Technology, Arts, and Media from CU. I will graduate with my Masters in December 2019.
+                I currently work as a researcher and developer in the 
+                <a href="https://playfulcomputation.group">Laboratory for Playful Computation</a>. 
+                <br><br>
+                
+                I work on designing programmable technologies that are accessible to non-technical populations, with a specific focus on technologies for live performance art. 
+                <br><br>
+                In addition to my research, I am usually working on several artistic endeavors at a time which include interactive
+                and immersive installations and playing in loud obnoxious rock bands.
+             </p>
+             <br>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/anniekkelly/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/rustynymph">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
       </section>
-
+ 
       <hr class="m-0">
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">M.S. Creative Technologies and Design</h3>
-              <div>University of Colorado Boulder</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Expected 12/2019</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">B.S. Computer Science</h3>
-              <div>University of Colorado Boulder</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">5/2016</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Certificate Technology, Arts, and Media</h3>
-              <div>University of Colorado Boulder</div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">5/2016</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-        </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Laboratory for Playful Computation</h3>
-              <div class="subheading mb-3">Research Assistant</div>
-              <p>
-                The Laboratory for Playful Computation, directed by Dr. Ben Shapiro, designs new playful and 
-                programmable technologies for learning. As a research assistant I help in facilitating research 
-                on how people learn and play with cutting-edge advances in programmable digital media. In 
-                addition, I currently lead my own research projects around building DIY and programmable 
-                tools for live artistic performance.
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">October 2015 - Present</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Microsoft Research</h3>
-              <div class="subheading mb-3">PhD Research Intern</div>
-              <p>
-                As a PhD Research Intern at Microsoft Research I worked with the Microsoft Makecode team. 
-                I designed and developed a target for pxt for a blocks-based and Javascript code editor 
-                for building Augmented Reality and music experiences. You can try out the editor  
-                <a href="http://laboratoryforplayfulcomputation.github.io/arcadia/">here</a>  (currently supported 
-                for the Chrome browser on computers and Android phones).
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2017 - August 2017</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Seagate Technology</h3>
-              <div class="subheading mb-3">Engineering Intern</div>
-              <p>
-                As an intern at Seagate Technology I worked with a team of senior engineers to develop a tool to provide factory workers with 
-                real-time feedback as they ran flaw scan and performance tests on hard drives.
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May 2015 - October 2015</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Engineering Tutor</div>
-              <p>
-                Worked for CU's College of Engineering as a late night walk-in tutor helping Freshman and Sophmore students on any coursework they
-                needed help with. I tutored topics including computer science, calculus, and physics. This job required the ability to research topics quickly,
-                understand them, and effectively convey the information to students in a way where they could then complete the assignments themselves.
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2013 - September 2015</span>
-            </div>
-          </div>          
-
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <h3>UI/UX</h3>
-          <h5>Design</h5>
-          Participatory design, design-based research, rapid prototyping<br><br>
-          <h5>Research</h5>
-          Interview, survey/questionnaire design, ethnography, contextual inquiry, quantitative analysis
-          <hr>
-
-          <h3>Programming</h3>
-          Python, C++, C#, JavaScript, HTML/CSS, Processing
-          <hr>
-
-          <h3>Graphics / Hardware</h3>
-          Raspberry Pi, Arduino, Electronics, Unity, Kinect, Laser Cutting, Photoshop, Illustrator, After Effects
-
-        </div>
-      </section>
-
-
-            <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="pubs">
-        <div class="my-auto">
-          <h2 class="mb-5">Publications &amp Presentations</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <b><a href="https://connectedlearningsummit2018.sched.com/event/Eh0E/tangible-and-playful-connected-learning">Tangible and Playful Connected Learning</a></b><br>
-              Sherry Hsi, Annie Kelly, Lila Finch, R. Benjamin Shapiro, Colin Dixon, Mike Petrich, &amp Karen Wilkinson<br>
-              A workshop facilitated at the 2018 Connected Learning Summit<br><br> 
-            </li>
-            <li>
-              <b><a href="https://dl.acm.org/citation.cfm?id=3173983">ARcadia: A Rapid Prototyping Platform for Real-time Tangible Interfaces</a></b><br>
-              Annie Kelly, R. Benjamin Shapiro, Peli de Halleux, &amp Thomas Ball<br>
-              In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems<br> 
-              <br>
-            </li>
-            <li>
-              <b><a href="https://www.sciencedirect.com/science/article/pii/S2212868918300394">BlockyTalky: New programmable tools to enable students’ learning of networks</a></b><br>
-              Annie Kelly, Lila Finch, Monica Bolles, &amp R. Benjamin Shapiro<br>
-              In Proceedings of the 2018 International Journal of Child-Computer Interaction<br>
-              <br>
-            </li>
-            <li>
-              <b>Universal Mind Control</b><br>
-              Annie Kelly &amp Monica Bolles<br>
-              Presented at the 2018 IMERSA Summit in Columbus, OH<br>
-              <br>
-            </li>            
-            <li>
-              <b>BlockyTalky: A Prototyping Toolkit for Digital Musical Interfaces</b><br>
-              Annie Kelly, Monica Bolles, &amp R. Benjamin Shapiro<br>
-              A workshop facilitated at the 2017 International Conference on New Interfaces for Musical Expression<br>
-              <br>
-            </li>
-            <li>
-              <b><a href="https://dl.acm.org/citation.cfm?id=3123136">Becoming Butterflies: Interactive Embodiment of the Butterfly Lifecycle</a></b><br>
-              Annie Kelly, Matthew Whitlock, Stephen Voida, et al.<br>
-              Poster presented at the 2017 ACM International Joint Conference on Pervasive and Ubiquitous Computing<br>
-              <br>
-            </li>
-            <li>
-              <b><a href="https://dl.acm.org/citation.cfm?id=3130153">BlockyTalky: Tangible Distributed Computer Music for Youth</a></b><br>
-              R. Benjamin Shapiro, Annie Kelly, Matthew Ahrens, et al<br>
-              Selected for the 2017 Computer Music Journal<br>
-              <br>
-            </li>
-            <li>
-              <b><a href="https://dl.acm.org/citation.cfm?id=3050428">Audiovisual Playground: A Music Sequencing Tool for 3D Virtual Worlds</a></b><br>
-              Annie Kelly &amp Kristofer Klipfel<br>
-              In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems<br>
-              <br>
-            </li>
-            <li>
-              <b><a href="https://www.nime.org/proceedings/2016/nime2016_paper0084.pdf">BlockyTalky: A Physical and Distributed Computer Music Toolkit for Kids</a></b><br>
-                R. Benjamin Shapiro, Annie Kelly, Matthew Ahrens, &amp Rebecca Fiebrink<br>
-                In Proceedings of the 2016 International Conference on New Interfaces for Musical Expression<br>	
-              <br>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="artist-workshops">
-        <div class="my-auto">
-          <h2 class="mb-5">Teaching & Workshops</h2>
-          
-          <!--I am passionate about empowering adult artists to engineer their own technologies for live performance and other artistic applications. 
-          Typically, when artists want to incorporate custom interactive technology into their 
-          performances, they have to outsource the work to engineers, losing creative agency in the process. 
-          In addition to developing programmable toolkits, I have led several educational workshops designed to teach artistis how to integrate computation into their work. computational tools designed to empower artists 
-          to have more control over the designs of technologies used in their projects, and to help them 
-          become more self-confident creative technologists.
-          <br><br>
-          Some of the performance technologies the Weird Code Club seeks to make more accessible are: toolkits to simplify the construction of real-time 
-          tangible interfaces, design tools that target specific creation goals like stage lighting, proximity detection, VJ and visual performance 
-          software, and audio processing tools.<br><br>-->
-          <h3>Adult Education</h3>
-          <ul class="fa-ul mb-0">
-            <li>
-              <h4 class="mb-0">Physical Computing for Live Performance</h4>
-              I recently worked with students enrolled in a graduate CU dance course called <i>Advanced Composition</i>. We led a few days of instruction for how to use a beginner-friendly 
-              physical computing tools to create interactive systems and then let the students choose a final project to work on. Students were specifically taught how to use the micro:bit 
-              as well as how to create their own physical inputs using electronics and craft materials, and also how to map input from real-time sensors to output such as sound, lighting, and motion.
-              Students met with me one-on-one for technical advice but 
-              were instructed to build their systems themselves, which including both the programming and construction. Students then performed using their technologies that they built.
-              <br>
-              <img src="./img/gloves.gif" width="150">
-            </li><br>
-            <li>
-              <h4 class="mb-0">Stage Lighting Workshop for Novice Programmers</h4>
-              We have also started running a series of interactive stage-lighting courses for artists and musicians. Using physical computing tools and browser-based programming editors
-              we teach musicians how to build physical interfaces that can be used in real-time to control professional stage lighting equipment. Participating artists are taught how to control DMX512 stage
-              lighting equipment using custom-built physical inputs and sensors.
-              <br>
-              <img src="./img/catm.jpg" width="200">
-            </li><br>
-            <li>
-              <h4 class="mb-0">Talking Trees Jam: Interactive Art Installations Embodying Environmental Change</h4>
-              The Talking Trees Jam was a weekend workshop where participants collaborated on interactive art installations that embody Colorado environmental data. Participants worked with real scientific data collected in Colorado forests and physical computing tools to bring their installations to life.
-              <br>
-              <img src="./img/trees.jpg" width="200">
-              </li><br>
-            <li>
-              <h4 class="mb-0">Creative++: A Creative Arts and Technology Jam</h4>
-              A 2017 interdisciplinary design event for artists and engineers where participants worked in groups 
-                to build an interactive technology for creative expression.<br>
-              <img src="./img/creativeplusplus.jpg" width="200">
-              <br>
-              </li>            
-          </ul>
-          <br>
-          <h3>Youth & Adolescent Education</h3>
-          <ul class="fa-ul mb-0">
-            <li>
-              <h4 class="mb-0">Build-Your-Own Pet Toys and Supplies</h4>
-              <i>Co-facilitated a multi-day workshop for high schooler students to design, engineer, and program interactive  
-                toys and objects for their pets.</i>
-              <br>
-              <img src="./img/petfeeder.gif" alt="micro:bit automated pet feeder" width="200">
-              </li><br>
-            <li>
-             <h4 class="mb-0">Interactive Computer Music for Middle Schoolers</h4>
-             <div class="subheading mb-3">
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="artwork-technology">
-        <div class="my-auto">
-          <h2 class="mb-5">Art & technology</h2>
-          <p>For more examples of projects that are not shown here visit my <a href="http://rustynymph.com">personal portfolio website</a>.</p>
-
-              <h3 class="mb-0">"The Cell"</h3>
-              <h4>An immersive and interactive scientific installation of an E.Coli cell</h4>
-              <p>
-              <img src="./img/dna.gif" width="150" align="right">
-              The Cell is an immersive, interactive, room-sized installation of an E.Coli cell housed in the University of Colorado Boulder’s ATLAS Institute. 
-              The inspiration for this project was to make a fun, visually engaging, and explorative educational experience. Upon entering the room, visitors are stepping inside of an E-coli cell and can touch, play, and interact with the different elements of the cell. 
-              The Cell contains large strands of interactive DNA that you can “unzip” by separating nucleotide pairs. 
-              As visitors separate the nucleotide pairs, the bases of the pair – A, G, C, and T – are revealed and denoted by color. 
-              Visitors can also pick up pieces of RNA off the floor and attach it to the strands of DNA to create different 
-              RNA sequences. Eventually, visitors will be able to use these RNA sequences to activate proteins and then place the proteins in the cell’s receptors to 
-              change the behavior and appearance of the cell. The construction of this project involved carpentry, scultpure, laser cutting, programming 
-              physical computing technologies to add interactivity, sound design, and more.<br>
-              </p>
-
-              <h3 class="mb-0">"The Show"</h3>
-              <h4>A dance performance featuring interactive light-up costumes</h4>
-              <p>
-                <img src="./img/theshow.gif" width="180" align="right">
-                “The Show” was a 2018 dance performance produced and choreographed by CU alumnus Emily Daub. 
-                The performance was about exploring relationships between people and different genres of dance. 
-                I designed and developed the software for the interactive light-up costumes. Each costume had between 1-5 
-                proximity sensors embedded into the clothing to sense the distances between each dancer at any given time. 
-                Each costume had a default color (e.g. one dancer was red, one was blue, etc) and the colors of each dancer 
-                would affect the colors of the LEDs of the dancers around them. For example, if the blue dancer and red dancer 
-                were close in proximity, both of their costumes' LEDs would blend and light up purple, and when they moved away from each other 
-                the lights would start to fade closer to their default colors. The LEDs on some of the costumes were also programmed to 
-                display different kinds of animations based on the rotational speed of the dancer. I also implemented a remote control 
-                device that I could use during the performance to remotely switch the costumes between different settings. </p>
-
-              <h3 class="mb-0">BlockyTalky</h3>
-              <h4>A programmable toolkit for building collaborative musical controllers</h4>
-              <p>
-                  BlockyTalky is a programming environment designed to make it easy for novice programmers to 
-                  make interactive, networked physical computing devices. Kids as young as ten have used it 
-                  to rapidly build a wide range of projects, from networked cat feeders to computer music systems. 
-                  Part of my work on this project was to adapt BlockyTalky so that it could be used by adults to 
-                  interface with professional level artistic software like Max/MSP, Pd, Unity, Processing, and more.<br> 
-                  <iframe src="https://player.vimeo.com/video/200510313" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              <br></p>
-
-              <h3 class="mb-0">ARcadia</h3>
-              <h4>An augmented reality toolkit for prototyping live artistic controllers</h4>
-              <p>
-                  ARcadia is a toolkit for bringing paper prototypes to life through the use of marker-based Augmented Reality. 
-                  It enables people to create tangible interfaces for real-time creative expression without the use of 
-                  embedded sensors or electronics.
-
-                  Users can construct interfaces using cardboard, paper, and other craft materials and stick fiducial markers on it to enable tracking via a webcam. 
-                  Users can then program different mappings between markers and events to add interactivity to their projects. After the crafting and programming phase, a user can play with their interface live – meaning their interactions with the interface will cause events to occur in real-time.
-                  
-                  Examples of possible projects include drum machines, pianos, games, etc with only using cardboard, fiducial markers, and a camera.<br>
-                  <iframe src="https://player.vimeo.com/video/255654746" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              <br></p>                        
-
-              <h3 class="mb-0">Universal Mind Control</h3>
-              <h4>Controlling the universe with the human mind</h4>
-              <p>Universal Mind Control is an interactive installation for planetariums where people can use their brain to control space and time in 
-                a planetarium system called <i>Uniview</i>. A user can train the software to activate different controls based on different brainwave patterns, e.g. 
-                "when I'm concentrating, speed up Earth's orbit," or "when I'm reading, fly to the Kuiper belt." This is made possible through the use of several 
-                customizable machine learning algorithms that allow users to customize the experience based on their own brain's activity and to 
-                set up the controls that they want to play with. <a href="http://sciss.se/uniview">Uniview</a> is a very popular 
-                option for planetariums across the world, so we designed our application to interface with it in order to provide a high-quality visual
-                experience, and also make our application ubiquitous enough to be used in most institutions.<br>
-                <iframe src="https://player.vimeo.com/video/235248368" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              <br></p>
-
-              <h3 class="mb-0">AudioVisual Playground</h3>
-              <h4>A virtual reality playground for interacting with music sequencers</h4>
-              <p>
-                  Audiovisual Playground is a 3D, virtual, music-making interface developed in Unity for the HTC 
-                  VIVE virtual reality headset. We took the idea of the popular musical composition tool, 
-                  music sequencer, and transformed it from a 2D linear interface to a 3D circular one that 
-                  users can interact with and walk around.
-                <br>
-              <iframe src="https://player.vimeo.com/video/196786242" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              </p>
-
-              <h3 class="mb-0">DoggyVision</h3>
-              <h4>See the world through a dog's eyes</h4>
-              <p>DoggyVsion is an augmented reality mobile application I developed that lets people see the world in a dog’s color spectrum. It is a common 
-                misconception that dogs can only see the world in monochromatic black and white, in actuality dogs' vision is dichomatic. DoggyVision was 
-                developed in Unity for iOS and Android and can be used in handheld mode and also with a Google Cardboard.
-              </p>
-
-              <h3 class="mb-0">Metamorphosis</h3>
-              <h4>A temporary museum installation about the lifecycle of butterflies</h4>
-              <p>
-                  <img src="./img/metamorphosis.png" width="180" align="right">
-                  Working with the University of Colorado Museum of Natural History, we designed and 
-                  implemented Metamorphosis, a system for an engaging, educational butterfly exhibit called <i>Becoming Butterflies</i>. 
-                  The exhibit employs augmented reality and full-body interaction to guide users through 
-                  critical phases of a butterfly‘s metamorphosis process.  
-                  Metamorphosis lets children experience this life cycle with their own bodies by interacting with an 
-                  animated projected character. Children begin the interaction by standing in front of the exhibit 
-                  where they can be tracked by the Kinect. Once the Kinect begins tracking, the child is prompted (via text projected on the wall 
-                  and audio played via overhead speak- ers) to crouch to become an egg. Once the child crouches, the projector displays
-                  an egg. The user wiggles back and forth to break free of the egg and become a caterpillar. In caterpillar form, 
-                  the user moves around eating leaves by making a “chomping" gesture with his/her arms until the caterpillar is ready to 
-                  become a chrysalis. At this point the user reaches his/her hand up to touch the branch overhead, 
-                  forming a silk thread and becoming a chrysalis. The child holds still until the exhibit prompts them to break 
-                  free and become a butterfly by reaching their arms out. Finally, the child is prompted to move his/her arms up 
-                  and down to fly away and lay another egg. 
-              <br>
-              </p>
-
-              <h3 class="mb-0">Boulder Museum of Contemporary Art Cultural Cul-de-sac event</h3>
-              <h4>Public display of animated artwork</h4>
-              <p>Boulder Museum of Contemporary Art's <i>Cultural Cul-de-sac</i> was a series of events designed to bring members of the Boulder community together
-              and engage in discussions about different cultures. Several animations of mine were displayed during the cul-de-sac event, 
-              <a href="https://bmoca.org/calendar/view/public-program/cultural-cul-de-sac-this-is-gonna-take-awhile-a-bbq-sampling"><i>This is Gonna Take Awhile</i></a>,
-              a BBQ and picnic themed event in the museum. <br>
-              <img src="./img/hotdog.gif" width="200">
-              <img src="./img/consume.gif" width="200">
-              </p> 
-
-
-                  <br></p>
-
-      </section>
-
-
-      
-
-      <hr class="m-0">
-
-      <hr class="m-0">
-
-
-
-      <hr class="m-0">
-
-
     </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
 

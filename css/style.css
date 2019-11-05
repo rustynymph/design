@@ -1,30 +1,29 @@
 
 
 body{
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 #sideNav .navbar-toggler:focus {
-    outline-color: #000000;
-  }
-
+  outline-color: #000000;
+}
 
 .bg-primary {
-    background-color: #000000 !important;
-  }
+  background-color: #000000 !important;
+}
   
 .text-primary {
-color: #000000 !important;
+  color: #000000 !important;
 }
 
 a {
-color: #333333;
-text-decoration: underline;
+  color: #333333;
+  text-decoration: underline;
 }
 
 a:hover, a:focus, a:active {
-color: #888888;
-text-decoration: underline overline;
+  color: #888888;
+  text-decoration: underline overline;
 }
 
 @font-face {
@@ -74,6 +73,7 @@ h3 {
   text-transform: uppercase;
   color: #5B6670;
 }
+
 h4,
 h5,
 h6 {
@@ -115,18 +115,33 @@ h6 {
   }
 }
 
+.name {
+  font-weight: 800;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+}
+
 nav {
   background-color: #000000 !important;
+}
+
+.nav-link-static {
+  text-align: right;
+  font-weight: 800;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  background-color: #000000;
+  display: block;  
+  color: #656f79;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   text-align: right;
   font-weight: 800;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.02rem;
   text-transform: uppercase;
   background-color: #000000;
 }
-
 #sideNav .navbar-toggler:focus {
   outline-color: #000000;
 }
