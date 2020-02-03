@@ -99,11 +99,12 @@ p {
   text-transform: uppercase;
   background-color: #000000;
   display: block;  
-  color: #656f79;
+  color: #8D87C1;
   font-family: 'Poppins', sans-serif;
 }
 
 .nav-name {
+  color: #FFFFFF !important;
   letter-spacing: 0.02rem;
   font-size: 3rem !important;
   font-weight: 900  !important;
