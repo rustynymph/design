@@ -1,125 +1,33 @@
 
-
+/* BACKGROUNDS */
 body{
   background-color: #ffffff;
 }
-
+nav {
+  background-color: #000000 !important;
+}
 .bg-primary {
   background-color: #000000 !important;
 }
-  
 .text-primary {
   color: #000000 !important;
 }
 
+/* LINKS */
 a {
   color: #333333;
   text-decoration: underline;
 }
-
 a:hover, a:focus, a:active {
   color: #888888;
   text-decoration: underline overline;
 }
-
-.name {
-  text-transform: uppercase;
-  font-weight: 900  !important;
-  font-family: 'Poppins', sans-serif !important;
-  text-transform: uppercase;
-  color: #000000;
-  font-size: 3.8rem;
-  letter-spacing: 0.02rem;
-  text-transform: uppercase;
-}
-
-.project-subtitle2 {
-  font-weight: 800;
-  letter-spacing: 0.02rem;
-  text-transform: uppercase;
-  color: #555454;
-  font-size: 1.25rem;
-}
-
-.project-subtitle {
-  font-weight: 800;
-  letter-spacing: 0.02rem;
-  text-transform: uppercase;
-  color: #555454;
-}
-
-.degree {
-  font-weight: 900  !important;
-  font-family: 'Poppins', sans-serif !important;
-  font-size: 1.5rem;
-  letter-spacing: 0.02rem;
-  text-transform: uppercase;
-  color: #555454;
-}
-
-.employer {
-  font-weight: 900  !important;
-  font-family: 'Poppins', sans-serif !important;
-  font-size: 1.5rem;
-  letter-spacing: 0.02rem;
-  text-transform: uppercase;
-  text-transform: uppercase;
-  color: #555454;
-}
-.position {
-  font-weight: 900  !important;
-  font-family: 'Poppins', sans-serif !important;
-  font-size: 1.2rem;
-  letter-spacing: 0.02rem;
-  text-transform: uppercase;
-  color: #777575;
-}
-.dates {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400;
-  letter-spacing: normal;
-  color: #000000;
-}
-
-nav {
-  background-color: #000000 !important;
-}
-
-p {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400;
-  letter-spacing: normal;
-}
-
-.nav-link-static {
-  font-size: 1.5rem;
-  text-align: right;
-  font-weight: 900;
-  letter-spacing: 0.02rem;
-  text-transform: uppercase;
-  background-color: #000000;
-  display: block;  
-  color: #8D87C1;
-  font-family: 'Poppins', sans-serif;
-}
-
-.nav-name {
-  color: #FFFFFF !important;
-  letter-spacing: 0.02rem;
-  font-size: 3rem !important;
-  font-weight: 900  !important;
-  font-family: 'Poppins', sans-serif !important;
-  line-height: 2.5rem !important;
-}
-
 #sideNav .navbar-nav .nav-item .nav-link {
   letter-spacing: 0.02rem;
 }
-
 .social-icons a:hover {
   background-color: #000000;
 }
-
 .social-icons a {
   display: inline-block;
   height: 2.5rem;
@@ -133,24 +41,78 @@ p {
   margin-right: 1rem;
 }
 
-/* img {
-  filter: gray; 
-  -webkit-filter: grayscale(1); 
-  filter: grayscale(1); 
-}
-
-iframe {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-} */
 
 @media (min-width: 0px) {
   p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
     font-size: 0.8rem;
+    letter-spacing: normal;
   }
+  .project-subtitle2 {
+    font-weight: 800;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    color: #555454;
+    font-size: 1.25rem;
+  }
+  .project-subtitle {
+    font-weight: 800;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    color: #555454;
+  }
+  .degree {
+    font-weight: 900  !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    color: #555454;
+  }
+  .employer {
+    font-weight: 900  !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.5rem;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    color: #555454;
+  }
+  .position {
+    font-weight: 900  !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    color: #777575;
+  }
+  .dates {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  .nav-name {
+    color: #FFFFFF !important;
+    letter-spacing: 0.02rem;
+    font-size: 2rem !important;
+    font-weight: 900  !important;
+    font-family: 'Poppins', sans-serif !important;
+    line-height: 2.5rem !important;
+  }
+  .nav-link-static {
+    font-size: 1rem;
+    text-align: right;
+    font-weight: 900;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    background-color: #000000;
+    display: block;  
+    color: #8D87C1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
   #sideNav {
     text-align: right;
     letter-spacing: 0.02rem;
@@ -210,41 +172,15 @@ iframe {
     padding-top: 0;
     padding-left: 7.5rem;    
   }
-  h1 {
-    text-transform: uppercase;
-    font-weight: 900  !important;
-    font-family: 'Poppins', sans-serif !important;
-    text-transform: uppercase;
-    color: #000000;
-    font-size: 3.8rem;
-  }
-  h2 {
-    text-transform: uppercase;
-    font-weight: normal;
-    color: #000000;
-    font-size: 2.8rem;
-  }
   h3 {
+    text-transform: uppercase;
     font-weight: 900  !important;
     font-family: 'Poppins', sans-serif !important;
-    font-size: 3.5rem !important;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 1.8rem;
     letter-spacing: 0.02rem;
     text-transform: uppercase;
-    color: #000000;
-  }
-  
-  h4,
-  h5,
-  h6 {
-    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-weight: 300;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: rgb(124, 138, 151);
-  } 
-  .subtitle {
-    font-family: 'Hacked';
-    font-size: 2.0rem;
   }
   .project-subtitle {
     font-size: 0.85rem;
@@ -265,6 +201,12 @@ iframe {
   #sideNav {
     width: 10rem;
   }
+  .nav-name {
+    font-size: 3.5rem !important;
+  }
+  .nav-link-static {
+    font-size: 1.5rem;
+  }
   body {
     padding-left: 10rem;
   }
@@ -272,7 +214,7 @@ iframe {
     font-size: 1rem;
   }
   h3 {
-    font-size: 1.8rem;
+    font-size: 3.8rem;
   }
   .project-subtitle {
     font-size: 1rem;
@@ -286,21 +228,18 @@ iframe {
   #sideNav {
     width: 13rem;
   }
-  
   body {
     padding-left: 13rem;
   }
 }
 
 /* PORTFOLIO STUFF */
-
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
 }
-
 .portfolio-box .portfolio-box-caption {
   position: absolute;
   bottom: 0;
@@ -315,7 +254,6 @@ iframe {
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -323,30 +261,26 @@ iframe {
   transform: translateY(-50%);
   text-align: center;
 }
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
 }
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
-
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-
 .portfolio-box:focus {
   outline: none;
 }
 
+/* CUSTOM FONTS */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
