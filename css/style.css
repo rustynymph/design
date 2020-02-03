@@ -23,7 +23,12 @@ a:hover, a:focus, a:active {
 }
 
 .name {
-  font-weight: 800;
+  text-transform: uppercase;
+  font-weight: 900  !important;
+  font-family: 'Poppins', sans-serif !important;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 3.8rem;
   letter-spacing: 0.02rem;
   text-transform: uppercase;
 }
@@ -44,42 +49,66 @@ a:hover, a:focus, a:active {
 }
 
 .degree {
-  font-weight: 800;
+  font-weight: 900  !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 1.5rem;
   letter-spacing: 0.02rem;
   text-transform: uppercase;
   color: #555454;
 }
 
 .employer {
-  font-weight: 800;
+  font-weight: 900  !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 1.5rem;
   letter-spacing: 0.02rem;
+  text-transform: uppercase;
   text-transform: uppercase;
   color: #555454;
 }
-
 .position {
-  font-weight: 800;
+  font-weight: 900  !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
   color: #777575;
 }
-
 .dates {
-  font-weight: 600;
-  font-size: 0.8rem;
-  color: #313131;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #000000;
 }
 
 nav {
   background-color: #000000 !important;
 }
 
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
 .nav-link-static {
+  font-size: 1.5rem;
   text-align: right;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 0.02rem;
   text-transform: uppercase;
   background-color: #000000;
   display: block;  
   color: #656f79;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-name {
+  letter-spacing: 0.02rem;
+  font-size: 3rem !important;
+  font-weight: 900  !important;
+  font-family: 'Poppins', sans-serif !important;
+  line-height: 2.5rem !important;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -172,6 +201,9 @@ iframe {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     line-height: 0.66rem;
     display: block;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    letter-spacing: normal;
   }
   body {
     padding-top: 0;
@@ -179,7 +211,9 @@ iframe {
   }
   h1 {
     text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 900  !important;
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase;
     color: #000000;
     font-size: 3.8rem;
   }
@@ -190,11 +224,12 @@ iframe {
     font-size: 2.8rem;
   }
   h3 {
-    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-weight: 800;
-    font-size: 1.5rem;
+    font-weight: 900  !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 3.5rem !important;
+    letter-spacing: 0.02rem;
     text-transform: uppercase;
-    color: #5B6670;
+    color: #555454;
   }
   
   h4,
@@ -212,9 +247,16 @@ iframe {
   }
   .project-subtitle {
     font-size: 0.85rem;
+    font-family: 'Poppins', sans-serif !important;
   }
   .project-subtitle2 {
     font-size: 1rem;
+    font-family: 'Poppins', sans-serif !important;
+  }
+  .bodylink {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    letter-spacing: normal;
   }
 }
 
