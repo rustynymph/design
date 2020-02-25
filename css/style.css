@@ -102,11 +102,7 @@ a:hover, a:focus, a:active {
     line-height: 2.5rem !important;
   }
   .nav-link-static {
-    font-size: 1rem;
     text-align: right;
-    font-weight: 900;
-    letter-spacing: 0.02rem;
-    text-transform: uppercase;
     background-color: #000000;
     display: block;  
     color: #8D87C1;
@@ -114,8 +110,6 @@ a:hover, a:focus, a:active {
   }
   
   #sideNav {
-    text-align: right;
-    letter-spacing: 0.02rem;
     position: fixed;
     top: 0;
     left: 0;
