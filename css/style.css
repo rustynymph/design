@@ -198,6 +198,14 @@ a:hover, a:focus, a:active {
   #contactsvg {
     height: 15px;
   }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 500px) {
@@ -254,6 +262,17 @@ a:hover, a:focus, a:active {
   }
 }
 
+@media (min-width: 1190px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+  }
+}
+
 /* PORTFOLIO STUFF */
 .portfolio-box {
   position: relative;
@@ -286,14 +305,6 @@ a:hover, a:focus, a:active {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
