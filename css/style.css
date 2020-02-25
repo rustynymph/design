@@ -189,6 +189,15 @@ a:hover, a:focus, a:active {
     font-weight: 400;
     letter-spacing: normal;
   }
+  #cvsvg {
+    height: 15px;
+  }
+  #portfoliosvg {
+    height: 15px;
+  }
+  #contactsvg {
+    height: 15px;
+  }
 }
 
 @media (min-width: 500px) {
@@ -216,6 +225,15 @@ a:hover, a:focus, a:active {
   .project-subtitle2 {
     font-size: 1.25rem;
   }
+  #cvsvg {
+    height: 15px;
+  }
+  #portfoliosvg {
+    height: 15px;
+  }
+  #contactsvg {
+    height: 15px;
+  }
 }
 
 @media (min-width: 640px) {
@@ -224,6 +242,15 @@ a:hover, a:focus, a:active {
   }
   body {
     padding-left: 13rem;
+  }
+  #cvsvg {
+    height: 20px;
+  }
+  #portfoliosvg {
+    height: 20px;
+  }
+  #contactsvg {
+    height: 20px;
   }
 }
 
