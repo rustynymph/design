@@ -163,3 +163,9 @@ function mouseDragged(){
     }
   }
 }
+
+function touchStarted() {
+  if (getAudioContext().state !== 'running') {
+    getAudioContext().resume();
+  }
+}
