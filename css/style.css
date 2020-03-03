@@ -212,6 +212,14 @@ a:hover, a:focus, a:active {
   #namesvg {
     width: 230px;
   }
+  .nav-small {
+    text-align: right;
+    background-color: #000000;
+    display: block;  
+    color: #8D87C1;
+    font-family: 'Poppins', sans-serif;
+    font-size: .66rem;
+  }
 }
 
 @media (min-width: 445px) {
@@ -229,6 +237,9 @@ a:hover, a:focus, a:active {
   }
   .nav-link-static {
     font-size: 1.5rem;
+  }
+  .nav-small {
+    font-size: .66rem;
   }
   body {
     padding-left: 10rem;
@@ -277,6 +288,9 @@ a:hover, a:focus, a:active {
   }
   #contactsvg {
     height: 20px;
+  }
+  .nav-small {
+    font-size: .77rem;
   }
 }
 
