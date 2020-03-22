@@ -218,7 +218,7 @@ footer {
 	background-color: #EB2FCB;
 }
 .profile {
-	width: 50%;
+	width: 300px;
 	margin: 0 auto;
 }
 .profile-smaller {
@@ -326,7 +326,7 @@ footer {
 	margin-right: 0px;
 }
 .profile {
-	width: 100%;
+	width: 250px;
 }
 .intro .column p {
 	width: 90%;
