@@ -40,6 +40,10 @@ a {
 	color: #EB2FCB;
 }
 
+.gallery-section {
+	text-align: center;
+}
+
 a:hover {
 	text-decoration: underline overline;
 	background-color: #EB2FCB;
@@ -63,15 +67,15 @@ li a:hover{
 .sub-link a {
 	display: inline;
 	font-size: 15px;
-	text-decoration: underline;
-	background: #000000;
-	color: #ffffff;
+	text-decoration: underline overline;
+	background: #ffffff;
+	color: #000000;
 }
 
 .sub-link a:hover {
 	text-decoration: underline overline;
-	background: #ffffff;
-	color: #000000;
+	background: #000000;
+	color: #ffffff;
 }
 
 .active{
@@ -110,16 +114,15 @@ li a:hover{
 	color: #A3A3A3;
 }
 .gallery {
-	clear: both;
 	display: inline-block;
 	width: 100%;
 	background-color: #FFFFFF;
-	/* [disabled]min-width: 400px;
-*/
 	padding-bottom: 35px;
 	padding-top: 0px;
 	margin-top: -5px;
 	margin-bottom: 0px;
+	padding-left: auto;
+	padding-right: auto;
 }
 .thumbnail {
 	width: 23%;
@@ -274,6 +277,7 @@ footer {
 	padding-left: 20px;
 	padding-right: 20px;
 	height: 85px;
+	font-size: 15px;
 }
 .social-icons a:hover {
 	background-color: #EB2FCB;
@@ -354,9 +358,6 @@ footer {
 	width: 100%;
 	margin-top: 0px;
 }
-.thumbnail {
-	width: 100%;
-}
 .text_column {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -392,5 +393,81 @@ footer {
 	}
 	.intro .column p {
 		width: 80%;
+	}
+}
+
+
+/* Medium Desktops */
+@media (min-width: 1097px) and (max-width: 1199px) {
+	.text_column {
+		width: 100%;
+	}
+	.thumbnail {
+		width: 30%;
+	}
+	.text_column {
+		width: 90%;
+		margin: 0;
+		padding: 20px;
+	}
+	.intro .column p {
+		width: 80%;
+	}
+	.gallery .thumbnail .tag {
+		font-size: 12px;
+		height: 100px;
+	}
+	.thumbnail-name {
+		font-size: 12px;
+	}
+}
+
+/* Medium Desktops 2 */
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.text_column {
+		width: 100%;
+	}
+	.thumbnail {
+		width: 30%;
+	}
+	.text_column {
+		width: 90%;
+		margin: 0;
+		padding: 20px;
+	}
+	.intro .column p {
+		width: 80%;
+	}
+	.gallery .thumbnail .tag {
+		font-size: 15px;
+		height: 100px;
+	}
+	.thumbnail-name {
+		font-size: 15px;
+	}
+}
+
+/* Large Desktops */
+@media (min-width: 1400) {
+	.text_column {
+		width: 100%;
+	}
+	.thumbnail {
+		width: 30%;
+	}
+	.text_column {
+		width: 90%;
+		margin: 0;
+		padding: 20px;
+	}
+	.intro .column p {
+		width: 80%;
+	}
+	.gallery .thumbnail .tag {
+		font-size: 15px;
+		height: 100px;
+	}
+	.thumbnail-name {
+		font-size: 20px;
 	}
 }
