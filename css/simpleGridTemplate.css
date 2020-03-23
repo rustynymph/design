@@ -20,12 +20,12 @@ header {
 	border-bottom: 1px solid #353635;
 }
 
-nav {
+.main-nav {
 	padding-top:10px;
 	text-align: center;
 }
 
-.nav {
+nav {
 	padding-top:10px;
 	text-align: center;
 }
@@ -48,6 +48,20 @@ li a{
 
 li a:hover{
 	text-decoration: underline overline;
+}
+
+.sub-link a {
+	display: inline;
+	font-size: 15px;
+	text-decoration: underline;
+	background: #000000;
+	color: #ffffff;
+}
+
+.sub-link a:hover {
+	text-decoration: underline overline;
+	background: #ffffff;
+	color: #000000;
 }
 
 .active{
