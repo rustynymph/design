@@ -36,6 +36,16 @@ ul {
   padding: 0;
 }
 
+a {
+	color: #EB2FCB;
+}
+
+a:hover {
+	text-decoration: underline overline;
+	background-color: #EB2FCB;
+	color: #ffffff;
+}
+
 li {
 	display: inline;
 	font-size: 25px;
