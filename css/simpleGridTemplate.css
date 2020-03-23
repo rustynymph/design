@@ -378,7 +378,7 @@ footer {
 }
 
 /* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
+@media (min-width: 768px) and (max-width: 1799px) {
 .text_column {
 	width: 100%;
 }
@@ -393,4 +393,8 @@ footer {
 .intro .column p {
 	width: 80%;
 }
+}
+
+/* Large Desktops */
+@media (min-width: 1800px) {
 }
