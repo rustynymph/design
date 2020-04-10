@@ -30,6 +30,13 @@ nav {
 	text-align: center;
 }
 
+nav.sub-nav {
+	padding-top:0px;
+	margin-top:0px;
+	text-align: left;
+	background-color: none;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -53,6 +60,7 @@ a:hover {
 li {
 	display: inline;
 	font-size: 25px;
+	
 }
 
 li a{
@@ -64,12 +72,22 @@ li a:hover{
 	text-decoration: underline overline;
 }
 
+.sub-nav-links {
+	padding-left: 100px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
 .sub-link a {
 	display: inline;
 	font-size: 15px;
-	text-decoration: underline overline;
-	background: #ffffff;
-	color: #000000;
+	text-decoration: underline;
+	background: none;
+	color: #ffffff;
+	padding-top: 0px;
+	border-left: 0px solid white;
+	border-right: 0px solid white;
 }
 
 .sub-link a:hover {
@@ -81,6 +99,26 @@ li a:hover{
 .active{
 	background-color: #ffffff;
 	text-decoration: underline overline;
+}
+
+hr.white-line-top {
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: -10px;
+	color: #ffffff;
+	border-color: #ffffff;
+	width: 85%;
+	border-width: .5px;
+}
+
+hr.white-line-bottom {
+	padding: 0px;
+	margin-top: -3px;
+	margin-bottom: 5px;
+	color: #ffffff;
+	border-color: #ffffff;
+	width: 85%;
+	border-width: .5px;
 }
 
 
@@ -158,7 +196,7 @@ li a:hover{
 }
 .intro-pink {
 	background-color: #EB2FCB;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	width: 100%;
 	text-align: center;
 	padding-top: 30px;
