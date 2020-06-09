@@ -20,6 +20,14 @@ header {
 	border-bottom: 1px solid #353635;
 }
 
+figure {
+	text-align: center;
+}
+
+.cap {
+	font-size: 0.7rem;
+  }
+
 .main-nav {
 	padding-top:10px;
 	text-align: center;
