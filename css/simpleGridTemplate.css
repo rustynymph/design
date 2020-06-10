@@ -51,6 +51,11 @@ ul {
   padding: 0;
 }
 
+.project-subtitle {
+	font-size: .8rem;
+	color: #5a5a5a;
+}
+
 a {
 	color: #EB2FCB;
 }
