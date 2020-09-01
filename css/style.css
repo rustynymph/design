@@ -65,7 +65,7 @@ header.masthead {
 
 #mainNav .navbar-brand {
     color: #f20081;
-    font-family: 'Russo One', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
   }
@@ -184,7 +184,7 @@ a:hover, a:focus {
 .glitch {
   font-size: 3em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
   position: absolute;
