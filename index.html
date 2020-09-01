@@ -1,334 +1,548 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Annie Kelly</title>
-<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Header -->
-  <!--<header class="header">
-    <h4 class="logo">Annie Kelly</h4>
-	 <h3>Creative Technologist / Design Researcher</h3>
-  </header>-->
-  <!-- Hero Section -->
-  <section class="intro intro-pink">
-    <div class="">
-		<!--<img src="images/inits.png" onmouseover="this.src='images/inits-spinny.gif';" onmouseout="this.src='images/inits.png';" alt="" class="profile">-->
-		<img src="images/inits-spinny.gif" alt="" class="profile">
-		<nav>
-      <ul class="nav-links">
-        <li>
-          <a class="active" href="./">PORTFOLIO</a>
-        </li>
-        <li>
-          <a href="./cv/">CV</a>
-        </li>
-        <li>
-          <a href="./contact/">CONTACT</a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="sub-nav">
-      <hr class="white-line-top">
-    <ul class="sub-nav-links">
-        <li class="sub-link">
-          <a href="#inttech">INTERACTIVE</a>
-          <!--<a href="#inttech">UI/UX</a>-->
-        </li>
-        <li class="sub-link">
-          <a href="#webdesign">WEB DESIGN</a>
-        </li>
-        <li class="sub-link">
-          <a href="#graphics">GRAPHIC DESIGN</a>
-        </li>
-        <li class="sub-link">
-          <a href="#teaching">TEACHING</a>
-        </li>
-        <li class="sub-link">
-          <a href="#netart">NET ART</a>
-        </li>
-      </ul>
-      <hr class="white-line-bottom">
+<!DOCTYPE html>
+<html lang="en">
 
-    </nav>
-      <!--<img src="images/headshot-circle.png" alt="" class="profile">--> </div>
-    <!--<div class="column">
-	 <h3>Annie Kelly</h3>
-	 <h5>Creative Technologist / Design Researcher</h5>
-      <p>I am a researcher, artist, programmer, and teacher with a passion for all things creative and interactive.
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Annie Kelly - Full Stack Web & UI/UX</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono&family=Russo+One&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+
+  <style>
+    canvas {
+      position: relative;
+      z-index: -1 !important;
+    }
+  </style>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mx-auto" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="container h-100" id="canvascontainer">
+      <div class="row h-100">
+        <div class="col-lg-1 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5">
+
+              <span class="glitch" data-glitch="Hello, I'm Annie.">Hello, I'm Annie.</span>
+
+              <!--<script>
+              function hover(element) {
+                element.setAttribute('src', 'img/bannerglitch.gif');
+              }
+              
+              function unhover(element) {
+                element.setAttribute('src', 'img/bannernoglitch.png');
+              }
+            </script>
+
+              <img id="banner" src="img/bannernoglitch.png" onmouseover="hover(this);" onmouseout="unhover(this);" />-->
+
+              <!--<span class="intro">
+                <span class="glitch" data-glitch="i">i</span>
+                <span class="glitch" data-glitch=",">,</span>
+                &nbsp;
+                <span class="glitch" data-glitch="I">I</span>
+                <span class="glitch" data-glitch="'">'</span>
+                <span class="glitch" data-glitch="m">m</span>
+                &nbsp;
+                <span class="glitch" data-glitch="A">A</span>
+                <span class="glitch" data-glitch="n">n</span>
+                <span class="glitch" data-glitch="n">n</span>
+                <span class="glitch" data-glitch="i">i</span>
+                <span class="glitch" data-glitch="e">e</span>
+                <span class="glitch" data-glitch=".">.</span>
+              </span>-->
+             <!-- I am a researcher, artist, programmer, and teacher with a passion for all things creative and interactive.
          I have an M.S. in Creative Technologies and Design, and a B.S. in Computer Science. I have a unique combination 
          of creative and technical skills, as well as research and education experience, enabling me to tackle a diverse 
-         set of creative projects.</p>
-    </div>-->
-	  
+         set of creative projects.-->
+            </h1>
+            <!--<img src="./img/heart.png" width=600px>-->
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+
+  <section class="download bg-primary text-center" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <p>I am a researcher, artist, programmer, and teacher with a passion for all things creative and interactive.
+          I have an M.S. in Creative Technologies and Design, and a B.S. in Computer Science. I have a unique combination 
+          of creative and technical skills, as well as research and education experience, enabling me to tackle a diverse 
+          set of creative projects.</p>
+          <h2 class="section-heading"></h2>
+        </div>
+      </div>
+    </div>
   </section>
-  <!-- Stats Gallery Section -->
-  <!--<h3>Portfolio: </h3>-->
 
-  <section id="canvascontainer" class="gallery-section">
-    <h3 id="inttech">INTERACTIVE TECHNOLOGIES</h3> <!--UI/UX DESIGN & SOFTWARE ENGINEERING-->
-    <hr>
-    <div class="gallery">
+  <section class="p-0" id="work">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
 
+        <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+          <a class="portfolio-box" href="https://laboratoryforplayfulcomputation.github.io/arcadia/">
+              <img class="img-fluid" src="img/arcadia.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    ARcadia
+                  </div>
+                  <div class="project-category text-faded">
+                    An Augmented Reality toolkit for turning tangible objects into creative and computational controllers.
+                  </div>
+                </div>
+              </div>
+          </a>
+        </div>
 
-    <!--<section id="canvascontainer" class="gallery-section">
-    <h3 id="inttech">INTERACTIVE TECHNOLOGIES & MEDIA</h3>
-    <hr>
-    <div class="gallery">-->
+        <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+          <a class="portfolio-box" href="https://laboratoryforplayfulcomputation.github.io/tubular/">
+              <img class="img-fluid" src="img/tubular.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-name">
+                    Tubular
+                  </div>
+                  <div class="project-category text-faded">
+                    A programming editor to modify playback of YouTube videos for use in visual arts performance.
+                  </div>
+                </div>
+              </div>
+          </a>
+          </div>
 
-      <a href="./projects/thecell/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/thecell.jpg" alt="" class="cards"/>
-          <h4 class="thumbnail-name">THE CELL</h4>
-          <p class="tag">An immersive and interactive art-science installation of an E.Coli cell</p>
-        </div>
-      </a>
+          <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+            <a class="portfolio-box" href="">
+                <img class="img-fluid" src="img/lightingeditor2.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      WebDMX
+                    </div>
+                    <div class="project-category text-faded">
+                      A web app to simplify designing lighting animations for non-linear lighting rigs (Node / React).
+                    </div>
+                  </div>
+                </div>
+            </a>
+            </div>
 
-      <a href="./projects/blockytalky/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/blockytalky.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">BLOCKYTALKY</h4>
-          <p class="tag">A programmable toolkit for building collaborative computer music instruments</p>
-        </div>
-      </a>
-      <a href="./projects/audiovisualplayground/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/audiovisualplayground.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">AUDIOVISUAL PLAYGROUND</h4>
-          <p class="tag">A virtual reality playground for playing with music sequencers</p>
-        </div>
-      </a>
-      <a href="./projects/theshow/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/theshow.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">THE SHOW</h4>
-          <p class="tag">Commissioned dance performance technology for interactive, light-up costumes</p>
-        </div>
-      </a>
-      <a href="./projects/universalmindcontrol/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/universalmindcontrol.jpg" alt="" class="cards"/>
-          <h4 class="thumbnail-name">UNIVERSAL MIND CONTROL</h4>
-          <p class="tag">Planetarium installation for controlling the universe with your brainwaves</p>
-        </div>
-      </a>
+            <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+              <a class="portfolio-box" href="https://rustynymph.github.io/reverend-charger-290-customizer/">
+                  <img class="img-fluid" src="img/guitars.png" alt="">
+                  <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                      <div class="project-name">
+                        Guitar Customizer
+                      </div>
+                      <div class="project-category text-faded">
+                        A web app I made for a client to help them choose a body color and pick guard combination for a high-end guitar.
+                      </div>
+                    </div>
+                  </div>
+              </a>
+              </div>
 
-            <a href="./projects/arcadia/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/arcadia.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">ARCADIA</h4>
-          <p class="tag">An augmented reality toolkit for making live, musical, and expressive controllers</p>
-        </div>
-      </a>
-      <a href="./projects/illucidation/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/pcbs.jpg" alt="" class="cards"/>
-          <h4 class="thumbnail-name">ILLUCIDATION</h4>
-          <p class="tag">Custom PCB design for interactive stage lighting toolkit</p>
-        </div>
-      </a>
-      <a href="./projects/heartflush/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/heartflush.jpg" alt=""  class="cards"/>
-          <h4 class="thumbnail-name">HEART FLUSH</h4>
-          <p class="tag">Commissioned performing arts technology for a heart-rate activated toilet flusher</p>
-        </div>
-      </a>
-      <a href="./projects/metamorphosis/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/metamorphosis.jpg" alt="" class="cards"/>
-          <h4 class="thumbnail-name">METAMORPHOSIS</h4>
-          <p class="tag">A temporary, interactive museum installation for embodied learning of the butterfly lifecycle</p>
-        </div>
-      </a>
-      <a href="./projects/rockblend/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/rockblend.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">ROCKBLEND</h4>
-          <p class="tag">A game where you power a blender by playing your keyboard</p>
-        </div>
-      </a>
-      <a href="./projects/doggyvision/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/doggy-01.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">DOGGYVISION</h4>
-          <p class="tag">App that modifies live video to show pet owners what their dog's color perception looks like.
-          </p>
-        </div>
-      </a>
+          <!--<div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+            <a class="portfolio-box" href="">
+                <img class="img-fluid" src="img/pi.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-category text-faded">
+                    </div>
+                    <div class="project-name">
+                      BlockyTalky 2.0
+                    </div>
+                  </div>
+                </div>
+            </a>
+            </div>-->
 
+          <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+            <a class="portfolio-box" href="http://authenticexpressioncounseling.com/">
+                <img class="img-fluid" src="img/authenticexpression.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Therapy Private Practice website
+                    </div>
+                    <div class="project-category text-faded">
+                      Website design and development for Authentic Expression Counseling, LLC.
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
 
-      
+          <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+            <a class="portfolio-box" href="https://innerwisdomtherapy.com">
+                <img class="img-fluid" src="img/therapy2.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Therapy Private Practice website
+                    </div>
+                    <div class="project-category text-faded">
+                      Website design and development for Inner Wisdom Therapy, LLC.
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+            <a class="portfolio-box" href="https://thenovakicks.com">
+                <img class="img-fluid" src="img/novakicks.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Band Landing Page
+                    </div>
+                    <div class="project-category text-faded">
+                      A minimalist landing page that links to the band's music and merch on different platforms.
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+              <a class="portfolio-box" href="https://playfulcomputation.group">
+                  <img class="img-fluid" src="img/lpc.png" alt="">
+                  <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                      <div class="project-name">
+                        Laboratory for Playful Computation
+                      </div>
+                      <div class="project-category text-faded">
+                        Collaborated on the design and development of the Laboratory for Playful Computation website.
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                <a class="portfolio-box" href="http://libbydigitalmedia.art/studentwork/">
+                    <img class="img-fluid" src="img/libby.png" alt="">
+                    <div class="portfolio-box-caption">
+                      <div class="portfolio-box-caption-content">
+                        <div class="project-name">
+                          Student Showcase website
+                        </div>
+                        <div class="project-category text-faded">
+                          Designed and developed a website to display student work from my 2020 Digital Media Art class that I instructed.
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                  <a class="portfolio-box" href="">
+                      <img class="img-fluid" src="img/theshow.png" alt="">
+                      <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-name">
+                            The Show
+                          </div>
+                          <div class="project-category text-faded">
+                            Commissioned dance performance technology for interactive, light-up costumes.
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                  <a class="portfolio-box" href="">
+                      <img class="img-fluid" src="img/dv.png" alt="">
+                      <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-name">
+                            DoggyVision
+                          </div>
+                          <div class="project-category text-faded">
+                            App that modifies live video to show pet owners what their dog's color perception looks like.
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                    <a class="portfolio-box" href="">
+                        <img class="img-fluid" src="img/toilet.jpg" alt="Heart-rate activated toilet flusher">
+                        <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                            <div class="project-name">
+                              Heart Flush
+                            </div>
+                            <div class="project-category text-faded">
+                              Commissioned performing arts technology for a heart-rate activated toilet flusher.
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                      <a class="portfolio-box" href="https://vimeo.com/235248368">
+                          <img class="img-fluid" src="img/umc2.png" alt="">
+                          <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                              <div class="project-name">
+                                Universal Mind Control
+                              </div>
+                              <div class="project-category text-faded">
+                                Planetarium installation where you can control the universe with your brainwaves.
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+
+                      <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                        <a class="portfolio-box" href="">
+                            <img class="img-fluid" src="img/interplanetary.jpg" alt="">
+                            <div class="portfolio-box-caption">
+                              <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+                                  Postcards from Space
+                                </div>
+                                <div class="project-category text-faded">
+                                  Hosted a paper circuit making booth at the Santa Fe Institute's Interplanetary Festival.
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                  <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                    <a class="portfolio-box" href="https://vimeo.com/162915310">
+                        <img class="img-fluid" src="img/rockblend.png" alt="">
+                        <div class="portfolio-box-caption">
+                          <div class="portfolio-box-caption-content">
+                            <div class="project-name">
+                              RockBlend
+                            </div>
+                            <div class="project-category text-faded">
+                              A game where you power your blender by playing your keyboard.
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                  <a class="portfolio-box" href="https://www.playfulcomputation.group/blockytalky.html">
+                      <img class="img-fluid" src="img/blockytalky.png" alt="">
+                      <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-name">
+                            BlockyTalky
+                          </div>
+                          <div class="project-category text-faded">
+                            A programmable toolkit for building IoT physical-computing projects for art, museic, science, and more.
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                  <a class="portfolio-box" href="https://vimeo.com/196786242">
+                      <img class="img-fluid" src="img/avplayground.png" alt="">
+                      <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-name">
+                            Audiovisual Playground
+                          </div>
+                          <div class="project-category text-faded">
+                            A virtual reality music-making game (Unity3D / HTC Vive).
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                  <a class="portfolio-box" href="">
+                      <img class="img-fluid" src="img/museum.png" alt="">
+                      <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-name">
+                            Metamorphosis
+                          </div>
+                          <div class="project-category text-faded">
+                            A temporary, interactive museum installation for embodied learning of the butterfly lifecycle.
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                <div class="col-lg-4 col-sm-6 col-xs-6 col-6">
+                  <a class="portfolio-box" href="">
+                      <img class="img-fluid" src="img/cell.jpg" alt="">
+                      <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                          <div class="project-name">
+                            The Cell
+                          </div>
+                          <div class="project-category text-faded">
+                            An room-sized, interactive art installation of the inside of an E.Coli cell.
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+        </div>
+      </div>
     </div>
+  </section>
 
-    <h3 id="webdesign">WEBSITE DESIGN</h3>
-    <hr>
-    <div class="gallery">
-      <a href="http://authenticexpressioncounseling.com/" target="_blank" class="portfolio-link">
-      <div class="thumbnail"><img src="images/authenticexpression3.png" alt="" class="cards"/>
-        <h4 class="thumbnail-name">AUTHENTIC EXPRESSION</h4>
-        <p class="tag">Website design and development for Authentic Expression Counseling, LLC.</p>
+
+  <section class="contact bg-primary" id="skills">
+    <div class="container">
+      <div class="row h-100 skills-total">
+
+        <div class="col-lg-3 skills-section">
+          <h3>
+            <span class="fade-color-text">D</span><span class="fade-color-text">e</span><span class="fade-color-text">v</span><span class="fade-color-text">e</span><span class="fade-color-text">l</span><span class="fade-color-text">o</span><span class="fade-color-text">p</span><span class="fade-color-text">m</span><span class="fade-color-text">e</span><span class="fade-color-text">n</span><span class="fade-color-text">t</span>
+          </h3>
+          <p class="skills">JavaScript, Node, React, p5, Python, C++, C#, JavaScript, Java, C, Bash, Unity,
+            Raspberry Pi, Arduino, IoT, machine learning, Dreamweaver</p>
+        </div>
+        <div class="col-lg-3 skills-section">
+          <h3>
+            <span class="fade-color-text">D</span><span class="fade-color-text">e</span><span class="fade-color-text">s</span><span class="fade-color-text">i</span><span class="fade-color-text">g</span><span class="fade-color-text">n</span>
+          </h3>
+          <p class="skills">HTML/CSS, Adobe Photoshop, Illustrator, InDesign</p>
+        </div>
+        <div class="col-lg-3 skills-section">
+          <h3>
+            <span class="fade-color-text">R</span><span class="fade-color-text">e</span><span class="fade-color-text">s</span><span class="fade-color-text">e</span><span class="fade-color-text">a</span><span class="fade-color-text">r</span><span class="fade-color-text">c</span><span class="fade-color-text">h</span>
+          </h3>
+          <p class="skills">Quantitative/qualititative methods, published in several academic journals and conferences</p>
+        </div>
+        <div class="col-lg-3 skills-section">
+          <h3>
+            <span class="fade-color-text">C</span><span class="fade-color-text">r</span><span class="fade-color-text">e</span><span class="fade-color-text">a</span><span class="fade-color-text">t</span><span class="fade-color-text">i</span><span class="fade-color-text">v</span><span class="fade-color-text">e</span>
+          </h3>
+          <p class="skills">Laser cutting, 3D modeling, prototyping, electronics, Logic, Max/MSP, GarageBand, Supercollider</p>
+        </div>
+
       </div>
-    </a>    
-
-    <a href="https://www.innerwisdomtherapy.com/" target="_blank" class="portfolio-link">
-      <div class="thumbnail"><img src="images/innerwisdom.png" alt="" class="cards"/>
-        <h4 class="thumbnail-name">INNER WISDOM THERAPY</h4>
-        <p class="tag">Website design and development for Inner Wisdom Therapy, LLC.</p>
-      </div>
-    </a>  
-    
-    <a href="https://www.playfulcomputation.group/" target="_blank" class="portfolio-link">
-      <div class="thumbnail"><img src="images/lpcwebsite.png" alt="" class="cards"/>
-        <h4 class="thumbnail-name">LPC</h4>
-        <p class="tag">Collaborated on development of the Laboratory for Playful Computation website.</p>
-      </div>
-    </a> 
-
-    <a href="http://libbydigitalmedia.art/studentwork/" target="_blank" class="portfolio-link">
-      <div class="thumbnail"><img src="images/studentworkpage.png" alt="" class="cards"/>
-        <h4 class="thumbnail-name">STUDENT ARTWORK WEBSITE</h4>
-        <p class="tag">Designed and developed a page displaying student work from my 2020 Digital Media Art class I instructed.</p>
-      </div>
-    </a>  
-
-    <a href="http://rustynymph.com/" target="_blank" class="portfolio-link">
-      <div class="thumbnail"><img src="images/rustynymphwebsite.png" alt="" class="cards"/>
-        <h4 class="thumbnail-name">RUSTY NYMPH</h4>
-        <p class="tag">Designed and developed my old freelance website.</p>
-      </div>
-    </a>  
-
-    </div>    
-
-    <h3 id="graphics">GRAPHIC DESIGN & ILLUSTRATION</h3>
-    <hr>
-    <div class="gallery">
-      <a href="./docs/phonoramabranding.pdf" target="_blank" class="portfolio-link">
-        <div class="thumbnail"><img src="images/phonorama.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">PHONORAMA</h4>
-          <p class="tag">Rebranding of an imagined vinyl and audio gear store</p>
-        </div>
-      </a>
-      <a href="./docs/snackbranding.pdf" target="_blank" class="portfolio-link">
-        <div class="thumbnail"><img src="images/snacks.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">SNACKS</h4>
-          <p class="tag">Snack branding design series</p>
-        </div>
-      </a>
-      <a href="./projects/flyers/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/kinggizzsquarecompressed.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">SHOW POSTERS</h4>
-          <p class="tag">Custom designed flyers for shows</p>
-        </div>
-      </a>
-      <a href="./projects/illustrations/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/basses.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">ILLUSTRATIONS</h4>
-          <p class="tag">A series of illustrations & sticker designs</p>
-        </div>
-      </a>
-      <a href="./projects/typography/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/rustynymphtypo.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">EXPERIMENTS IN TYPOGRAPHY</h4>
-          <p class="tag">Having fun playing around with typefaces</p>
-        </div>
-      </a>
-      <a href="./projects/animations/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/drip2.gif" alt="" class="cards"/>
-          <h4 class="thumbnail-name">ANIMATION / MOTION</h4>
-          <p class="tag">Some animation and motion graphics projects</p>
-        </div>
-      </a>
-      <a href="" class="portfolio-link">
-        <div class="thumbnail"><img src="images/shapingthefuture2.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">SHAPING THE FUTURE</h4>
-          <p class="tag">Logo design I created for my cousin in 2012.</p>
-        </div>
-      </a>
-      <!--<a href="./projects/family/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/shapingthefuture2.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">WORK FOR FRIENDS & FAMILY</h4>
-          <p class="tag">Logo and web design work I have done for friends and family</p>
-        </div>
-      </a>!-->
     </div>
-    <h3 id="teaching">TEACHING</h3>
-    <hr>
-    <div class="gallery">
-      <a href="http://libbydigitalmedia.art/" target="_blank" class="portfolio-link">
-        <div class="thumbnail"><img src="images/digitalmediabanner.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">Digital Media Art</h4>
-          <p class="tag">Currently the instructor for a Digital Media Art course at the University of Colorado Boulder</p>
-        </div>      
-      </a>
-      <a href="/projects/arttech/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/dancer.png" alt="" class="cards"/>
-          <h4 class="thumbnail-name">Tech, Art, & Performance</h4>
-          <p class="tag">Workshops for artists to learn computing and build their own expressive, interactive technologies</p>
-        </div>      
-      </a>
-      <a href="./projects/steamk12/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/interplanetary.jpg" alt="" class="cards"/>
-          <h4 class="thumbnail-name">STEAM Education for K-12</h4>
-          <p class="tag">Engaging youth in STEAM through expressive and educational curricula</p>
-        </div>      
-      </a>
+  </section>
+
+  <section class="features " id="contact">
+    <div class="container">
+      <div class="section-heading text-center">
+        <p>
+          Feel free to contact me for job inquiries and freelance work.<br><br>
+          <div class="social-icons">
+           <a href="mailto:anniekelly6894@gmail.com">
+             <i class="far fa-envelope fa-3x"></i>
+           </a>
+           <a href="https://www.linkedin.com/in/anniekkelly/" target="_blank">
+             <i class="fab fa-linkedin-in fa-3x"></i>
+           </a>
+           <a href="https://github.com/rustynymph" target="_blank">
+             <i class="fab fa-github fa-3x"></i>
+           </a>
+           <a href="https://dribbble.com/rustynymph" target="_blank">
+             <i class="fab fa-dribbble fa-3x"></i>
+           </a>
+         </div>
+
+        </p>
+      </div>
     </div>
-    <h3 id="netart">NET ART</h3>
-    <hr>
-    <div class="gallery">
-      <a href="./projects/puppy/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/sadpuppyyellow.gif" onmouseover="this.src='images/happypuppyyellow.gif';" onmouseout="this.src='images/sadpuppyyellow.gif';" alt="" class="cards"/>
-          <h4 class="thumbnail-name">PET THE PUPPY</h4>
-          <p class="tag">Pet the puppy, just do it</p>
-        </div>
-      </a>
-      <a href="http://rustynymph.com/projects/music/pizza/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/pizza.gif" alt="" class="cards"/>
-          <h4 class="thumbnail-name">MUSICAL PIZZA</h4>
-          <p class="tag">The toppings are your instruments</p>
-        </div>
-      </a>
-      <a href="http://rustynymph.com/projects/media/curves/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/curves-optimized.gif" alt="" class="cards"/>
-          <h4 class="thumbnail-name">RAINBOW CURVES</h4>
-          <p class="tag">Meditate and draw with color-changing curves </p>
-        </div>
-      </a>
-      <a href="http://rustynymph.com/projects/media/error/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/error.gif" alt="" class="cards"/>
-          <h4 class="thumbnail-name">ERROR</h4>
-          <p class="tag">Nostalgia for making cascading patterns with buggy windows</p>
-        </div>
-      </a>
-      <a href="http://rustynymph.com/projects/media/rose/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/rose-optimized.gif" alt="" class="cards"/>
-          <h4 class="thumbnail-name">ROSE CURVES</h4>
-          <p class="tag">Algorithmically generated artwork based on your mouse position</p>
-        </div>
-      </a>
-      <a href="http://rustynymph.com/projects/media//hotdog/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/hotdog-optimized.gif" alt="" class="cards"/>
-          <h4 class="thumbnail-name">HOT DOG</h4>
-          <p class="tag">Was selected for a Boulder Museum of Contemporary Art event in a series on BBQ art </p>
-        </div>
-      </a>
-      <a href="./projects/audiovisualizations/" class="portfolio-link">
-        <div class="thumbnail"><img src="images/av5.gif" alt="" class="cards"/>
-          <h4 class="thumbnail-name">AUDIO VISUALIZATIONS</h4>
-          <p class="tag">Audio reactive imagery</p>
-        </div>
-      </a>
-  </div>
-</section>
-  <!-- Footer Section -->
-  <footer id="contact">
-    <!--<p class="hero_header">GET IN TOUCH WITH ME</p>
-    <div class="button">EMAIL ME </div>-->
-  </footer>
+  </section>
 
-</div>
-<!-- Main Container Ends -->
+  <!--<footer>
+    <div class="container">
+      <p>&copy; Annie Kelly 2020. All Rights Reserved.</p>
+    </div>
+  </footer>-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.min.js"></script>
 
   <!-- p5.js -->
-  <script src="./vendor/p5/p5.min.js"></script>
-  <script src="./javascript/sketch.js"></script>
+  <script src="./js/p5.min.js"></script>
+  <!--<script src="./js/effects2.js"></script>-->
+  <script src="./js/effects3.js"></script>
+
 </body>
+
 </html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../..//favicon.ico" type="image/x-icon">
+    <title>Annie Kelly - ARcadia</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/resume.min.css" rel="stylesheet">
+    <link href="../../css/style.css" rel="stylesheet">
+  </head>
+
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <body id="page-top">
+      <nav class="navbar navbar-expand navbar-dark bg-primary fixed-top" id="sideNav" style="text-align: right; float: right;">
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none"></span>
+          </a>     
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div id="nav-placeholder"></div>
+            </div>
+        </nav>
+    <script>
+      $.get("../../navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+    
+    <div class="container-fluid p-0">
+      <hr class="m-0">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="arcadia">
+        <div class="my-auto">
+
+          <h3 class="mb-0">ARcadia</h3>
+          <span class="project-subtitle">An augmented reality toolkit for prototyping live artistic controllers</span><br>
+          <p>
+            ARcadia is a toolkit for bringing paper prototypes to life through the use of marker-based Augmented Reality. 
+            It enables people to create tangible interfaces for real-time creative expression without the use of 
+            embedded sensors or electronics.<br><br>
+
+            Users can construct interfaces using cardboard, paper, and other craft materials and stick fiducial markers on it to enable tracking via a webcam. 
+            Users can then program different mappings between markers and events to add interactivity to their projects. After the crafting and programming phase, a user can play with their interface live – meaning their interactions with the interface will cause events to occur in real-time.
+            Examples of possible projects include drum machines, pianos, games, etc with only using cardboard, fiducial markers, and a camera.<br><br>
+
+            I developed ARcadia in collaboration with the Microsoft MakeCode team while I was an intern there. Since my internship ending, I have continued to conduct user testing and
+            iterate on the design of ARcadia using design based research methods.<br></p>
+
+            <p class="citations">
+            Annie Kelly, R. Benjamin Shapiro, Jonathan de Halleux, and Thomas Ball. 2018.
+            ARcadia: A Rapid Prototyping Platform for Real-time Tangible Interfaces.
+            In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI ’18).
+            Association for Computing Machinery, New York, NY, USA, Paper 409, 1–8.
+            DOI:<a href="https://doi.org/10.1145/3173574.3173983">https://doi.org/10.1145/3173574.3173983</a><br>
+            <div style="float:left;">
+              <iframe src="https://player.vimeo.com/video/255654746" width="400" height="225" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <img src="../../img/arcadiasetup.jpeg" height="225">
+          </p>                        
+
+        </div>
+      </section>
+      <hr class="m-0">
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="../../js/resume.min.js"></script>
+  </body>
+</html>
