@@ -262,14 +262,23 @@ section.download {
 /* For Mobile */
 @media screen and (max-width: 540px) {
   .glitch {
-    left: 50%;
+    font-size: 1em;
+    left: 40%;
+    float: left;
+  }
+  p { 
+    font-size: .7rem;
   }
 }
 
 /* For Tablets */
 @media screen and (min-width: 540px) and (max-width: 780px) {
   .glitch {
+    font-size: 2em;
     left: 200px;
+  }
+  p { 
+    font-size: .9rem;
   }
 }
 

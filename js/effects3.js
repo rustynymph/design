@@ -1,4 +1,4 @@
-var noiseMax = -1;
+var noiseMax = 1;
 var zoff = 0;
 var count = 0;
 var ca, cb, cc;
@@ -6,8 +6,10 @@ var ox, oy;
 var MAX;
 
 function setup() {
-	canvas_width = windowWidth;
-    canvas_height = $(document).height();
+	//canvas_width = windowWidth;
+    //canvas_height = $(document).height();
+    canvas_width = windowWidth;
+    canvas_height = windowHeight;
     cnv = createCanvas(canvas_width, canvas_height);
     cnv.position(0, 0);
     cnv.style('z-index', '-3');
@@ -40,7 +42,7 @@ function draw() {
         var yoff = map(sin(t), -1, 1, 0, noiseMax);
 
         var n = noise(xoff, yoff, zoff);
-        var r = map(n, 0, 1, 0, height * 1.5);
+        var r = map(n, 0, 1, 0, height * 1);
         var x = r * cos(t);
         var y = r * sin(t);
         vertex(x, y);
@@ -58,8 +60,12 @@ function draw() {
 
 function windowResized() {
     canvas_width = windowWidth;
-    canvas_height = $(document).height();
+    canvas_height = windowHeight;
     resizeCanvas(canvas_width, canvas_height);
+
+	ox = width / 2;
+	oy = height;
+	MAX = width > height ? width : height;    
 
 	background(29, 29, 29);
     count = 0;
