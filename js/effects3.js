@@ -53,9 +53,9 @@ function draw() {
     zoff += 0.009;
     count = count + 1;
 
-    if (count >= 500) {
+    /*if (count >= 500) {
         noLoop();
-    }
+    }*/
 }
 
 function windowResized() {
