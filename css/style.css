@@ -353,13 +353,13 @@ section.download {
     font-size: .9rem;
   }
   .banner-inits {
-    width: 70px;
+    width: 40px;
   }
 }
 
 @media screen and (min-width: 780px) and (max-width: 991px) {
   .banner-inits {
-    width: 70px;
+    width: 40px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
@@ -371,6 +371,6 @@ section.download {
 
 @media screen and (min-width: 991px) {
   .banner-inits {
-    width: 50px;
+    width: 40px;
   }
 }
