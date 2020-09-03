@@ -15,11 +15,17 @@ p.intro-text {
   text-align: center;
   font-size: .8rem;
   letter-spacing: 2px;
+  text-shadow: 1px 1px #000000;
 
 }
 
 p.skills {
   text-align: left;
+  font-size: .8rem;
+}
+
+p.contact-text {
+  text-align: center;
   font-size: .8rem;
 }
 
@@ -180,13 +186,19 @@ a:hover, a:focus {
 
 .social-icons a {
   padding: 10px;
-  color: #0CCBCF;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.social-icons a:hover {
+.icon-blue:hover {
+  color: #0CCBCF !important;
+  text-decoration: none;
+}
+
+.icon-pink:hover {
   color: #FE68B5 !important;
   text-decoration: none;
 }
+
 
 .glitch {
   transform: translate(-100%, -50%);
