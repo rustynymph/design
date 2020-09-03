@@ -277,49 +277,6 @@ section.download {
   padding: 80px 0;
 }
 
-/* For Mobile */
-@media screen and (max-width: 540px) {
-  .banner-inits {
-    width: 40px;
-  }
-  .glitch {
-    font-size: 1em;
-    left: 30px;
-  }
-  p { 
-    font-size: .7rem;
-  }
-}
-
-/* For Tablets */
-@media screen and (min-width: 540px) and (max-width: 780px) {
-  .glitch {
-    font-size: 2em;
-  }
-  p { 
-    font-size: .9rem;
-  }
-  .banner-inits {
-    width: 70px;
-  }
-}
-
-@media screen and (min-width: 780px) and (max-width: 991px) {
-  .glitch {
-  }
-  .banner-inits {
-    width: 70px;
-  }
-}
-
-@media screen and (min-width: 991px) {
-  .glitch {
-  }
-  .banner-inits {
-    width: 70px;
-  }
-}
-
 
 .portfolio-box {
   position: relative;
@@ -375,7 +332,35 @@ section.download {
   outline: none;
 }
 
-@media (min-width: 768px) {
+.img-fluid {
+  min-width: 100%;
+  height: auto;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .banner-inits {
+    width: 30px;
+  }
+  p { 
+    font-size: .7rem;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  p { 
+    font-size: .9rem;
+  }
+  .banner-inits {
+    width: 70px;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 991px) {
+  .banner-inits {
+    width: 70px;
+  }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
@@ -384,8 +369,8 @@ section.download {
   }
 }
 
-
-.img-fluid {
-  min-width: 100%;
-  height: auto;
+@media screen and (min-width: 991px) {
+  .banner-inits {
+    width: 50px;
+  }
 }
