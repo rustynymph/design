@@ -203,6 +203,10 @@ a:hover, a:focus {
   color: #ffffff;
 }
 
+.project-list {
+  color: #ffffff;
+}
+
 .glitch {
   transform: translate(-100%, -50%);
   font-size: 3em;
