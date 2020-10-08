@@ -199,6 +199,9 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
+.project-header {
+  color: #ffffff;
+}
 
 .glitch {
   transform: translate(-100%, -50%);
