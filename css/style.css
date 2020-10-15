@@ -42,6 +42,12 @@ p.contact-text {
   text-transform: uppercase;
 }
 
+#publications h3 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 5px;  
+}
+
 .fade-color-text {
   animation: none;
   color: rgba(255, 255, 255, 0.7);
@@ -157,6 +163,26 @@ a:hover, a:focus {
     background-color: none;
 }
 
+#publications {
+  padding: 15%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+}
+
+.publications-header {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.publication {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: .8rem;
+}
+
+.publication a {
+  color: rgba(12, 204, 207, 1);
+}
 
 .card {
   background-color: none;
