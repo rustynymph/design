@@ -110,8 +110,14 @@ section.contact {
 }
 
 .bg-primary {
-    background: #101010;
-    background: linear-gradient(#0a0a0a, #101010);
+    background-color: #101010;
+    /*background: linear-gradient(#0a0a0a, #101010);*/
+    background-image: url("../img/dotted-background-lines2.png");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
 #mainNav .navbar-nav > li > a.active {
