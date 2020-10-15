@@ -42,12 +42,6 @@ p.contact-text {
   text-transform: uppercase;
 }
 
-#publications h3 {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 5px;  
-}
-
 .fade-color-text {
   animation: none;
   color: rgba(255, 255, 255, 0.7);
@@ -167,13 +161,16 @@ a:hover, a:focus {
   padding: 15%;
   padding-top: 80px;
   padding-bottom: 50px;
-
 }
 
-.publications-header {
+#publications h3 {
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
+  font-family: 'Rock Salt', cursive;
+  text-transform: uppercase;
+  padding-bottom: 25px;  
 }
+
 
 .publication {
   color: rgba(255, 255, 255, 0.7);
@@ -182,6 +179,18 @@ a:hover, a:focus {
 
 .publication a {
   color: rgba(12, 204, 207, 1);
+}
+
+h3.skills-header {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  text-transform: uppercase;
+  padding-bottom: 25px;  
+}
+
+.skill-category{
+  color: rgb(85, 85, 85);
 }
 
 .project-description p a {
@@ -304,10 +313,11 @@ a:hover, a:focus {
 
 h1.mb5 {
   text-align: center !important;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Rock Salt', cursive;
   text-transform: uppercase;
   font-size: 2.5rem;
   color: #919191;
+  padding-bottom: 25px;
 }
 
 section.download {
