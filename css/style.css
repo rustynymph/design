@@ -184,6 +184,10 @@ a:hover, a:focus {
   color: rgba(12, 204, 207, 1);
 }
 
+.project-description p a {
+  color: rgba(12, 204, 207, 1);
+}
+
 .card {
   background-color: none;
   margin: 0;
