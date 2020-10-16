@@ -109,6 +109,17 @@ section.contact {
     background-color: #1d1d1d;
 }
 
+figure {
+  display: inline-block;
+}
+
+.caption {
+  color: #e3e3e3;
+  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: .7rem;
+  text-align: center;
+}
+
 .bg-primary {
     background-color: #101010;
     /*background: linear-gradient(#0a0a0a, #101010);*/
