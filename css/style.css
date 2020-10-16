@@ -77,6 +77,13 @@ header.masthead {
     background-image: none;
 }
 
+h1.project-heading-title {
+  color: rgba(255, 255, 255, .9);
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+  font-size: 3rem;  
+}
+
 #mainNav .navbar-brand {
     color: #f20081;
     font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
@@ -437,5 +444,94 @@ section.download {
 @media screen and (min-width: 991px) {
   .banner-inits {
     width: 40px;
+  }
+}
+
+header.project-masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+header.project-masthead.arcadia {
+  background: url("/img/arcadiasetup-header.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.blockytalky {
+  background: url("/img/blockytalky-header.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.webdmx {
+  background: url("/img/webdmx-header.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.doggyvision {
+  background: url("/img/doggyvision-header.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.thecell {
+  background: url("/img/uncompressed/cell.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.theshow {
+  background: url("/img/theshow-header.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.avplayground {
+  background: url("/img/uncompressed/avplayground.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.umc {
+  background: url("/img/umc-header.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header.project-masthead {
+    height: 50vh;
+    min-height: 500px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
