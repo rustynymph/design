@@ -80,7 +80,7 @@ header.masthead {
 h1.project-heading-title {
   color: rgba(255, 255, 255, .9);
   text-align: center;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Rock Salt', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 3rem;  
 }
 
