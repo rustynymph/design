@@ -491,8 +491,26 @@ header.project-masthead.doggyvision {
   background-size: cover;
 }
 
+header.project-masthead.heartflush {
+  background: url("/img/heartflush-header.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 header.project-masthead.interplanetary {
   background: url("/img/interplanetary-header.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.rockblend {
+  background: url("/img/rockblend-header2.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -511,6 +529,24 @@ header.project-masthead.thecell {
 
 header.project-masthead.theshow {
   background: url("/img/theshow-header.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.metamorphosis {
+  background: url("/img/museum-header.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.project-masthead.tubular {
+  background: url("/img/tubular-header.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
