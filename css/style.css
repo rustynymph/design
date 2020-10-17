@@ -491,6 +491,15 @@ header.project-masthead.doggyvision {
   background-size: cover;
 }
 
+header.project-masthead.interplanetary {
+  background: url("/img/interplanetary-header.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 header.project-masthead.thecell {
   background: url("/img/uncompressed/cell.jpg");
   background-position: center center;
