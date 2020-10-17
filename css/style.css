@@ -81,7 +81,11 @@ h1.project-heading-title {
   color: rgba(255, 255, 255, .9);
   text-align: center;
   font-family: 'Rock Salt', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 3rem;  
+  font-size: 4rem;  
+}
+
+.nav-link {
+  color:rgba(255, 255, 255, 0.7) !important;
 }
 
 #mainNav .navbar-brand {
@@ -195,7 +199,6 @@ a:hover, a:focus {
   padding-bottom: 25px;  
 }
 
-
 .publication {
   color: rgba(255, 255, 255, 0.7);
   font-size: .8rem;
@@ -307,6 +310,12 @@ h3.skills-header {
     z-index: -1;
     animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 5;
     animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  h1.project-heading-title {
+    font-size: 3rem;  
+  }
 }
 
 @media only screen and (max-width: 400px) {
