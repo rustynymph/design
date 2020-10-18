@@ -5,7 +5,8 @@ body {
 
 p {
     color: #e3e3e3;
-    font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+    /*font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';*/
+    font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 1rem;
     letter-spacing: 2px;
     font-weight: 100;
@@ -16,7 +17,14 @@ p.intro-text {
   font-size: .8rem;
   letter-spacing: 2px;
   text-shadow: 1px 1px #000000;
+  text-transform: uppercase;
 
+}
+
+p.about-text {
+  text-align: center;
+  font-size: .9rem;
+  letter-spacing: 2px;  
 }
 
 p.skills {
@@ -90,7 +98,8 @@ h1.project-heading-title {
 
 #mainNav .navbar-brand {
     color: #f20081;
-    font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+    /*font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';*/
+    font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 200;
     letter-spacing: 1px;
   }
@@ -98,7 +107,8 @@ h1.project-heading-title {
 #mainNav .navbar-nav > li > a {
   font-size: 12px;
   /*font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';*/
-  font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
+  /*font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';*/
+  font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -268,6 +278,15 @@ h3.skills-header {
 
 .project-header {
   color: #ffffff;
+  font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 3rem;
+}
+
+.project-header-sub {
+  color: #ffffff;
+  font-family: 'Open SansS', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.5rem;  
+  font-style: italic;
 }
 
 .project-list {
@@ -392,7 +411,15 @@ section.download {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.project-name {
+  font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.project-category {
+  font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'sans-serif';
+
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
