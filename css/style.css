@@ -228,6 +228,8 @@ h3.skills-header {
 
 .skill-category{
   color: rgb(85, 85, 85);
+  font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2rem;
 }
 
 .project-description p a {
