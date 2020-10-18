@@ -417,21 +417,12 @@ section.download {
 
 .project-name {
   font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.project-category {
-  font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'sans-serif';
-
+  font-size: 1.25rem;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: none;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
+  font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: .8rem;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -470,12 +461,6 @@ section.download {
 @media screen and (min-width: 780px) and (max-width: 991px) {
   .banner-inits {
     width: 40px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
   }
 }
 
