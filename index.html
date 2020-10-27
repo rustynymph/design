@@ -49,34 +49,39 @@
   <script src="./js/p5.min.js"></script>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top mx-auto" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="banner-inits" src="img/hearticon.png"></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <!--MENU-->
-        <i class="fas fa-bars fa-lg"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mx-auto justify-content-md-center justify-content-start" id="mainNav">
+  <div class="container">
+    <!--<a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="banner-inits" src="img/hearticon.png"></a>-->
+    
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <!--MENU-->
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+    <div class="collapse navbar-collapse w-100 justify-content-between align-items-center w-100" id="navbarResponsive">
+      <ul class="navbar-nav mx-auto text-md-center text-left">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <header class="masthead">
     <div class="container h-100" id="canvascontainer">
@@ -84,78 +89,20 @@
         <div class="col-lg-12 my-auto">
           <div class="header-content mx-auto">
             <center>
-             <img src="img/heartinits-02.png" width="300px">
+             <img src="img/heartinits-02.png" width="200px">
             </center>
-            <p class="intro-text">UI/UX Designer & Researcher</p>
-
-              <!--<div class="glitch-block">
-                <span class="glitch" data-glitch="Hello, I'm Annie.">Hello, I'm Annie.</span>
-              </div>-->
-
-
-              <!--<script>
-              function hover(element) {
-                element.setAttribute('src', 'img/bannerglitch.gif');
-              }
-              
-              function unhover(element) {
-                element.setAttribute('src', 'img/bannernoglitch.png');
-              }
-            </script>
-
-              <img id="banner" src="img/bannernoglitch.png" onmouseover="hover(this);" onmouseout="unhover(this);" />-->
-
-              <!--<span class="intro">
-                <span class="glitch" data-glitch="i">i</span>
-                <span class="glitch" data-glitch=",">,</span>
-                &nbsp;
-                <span class="glitch" data-glitch="I">I</span>
-                <span class="glitch" data-glitch="'">'</span>
-                <span class="glitch" data-glitch="m">m</span>
-                &nbsp;
-                <span class="glitch" data-glitch="A">A</span>
-                <span class="glitch" data-glitch="n">n</span>
-                <span class="glitch" data-glitch="n">n</span>
-                <span class="glitch" data-glitch="i">i</span>
-                <span class="glitch" data-glitch="e">e</span>
-                <span class="glitch" data-glitch=".">.</span>
-              </span>-->
-             <!-- I am a researcher, artist, programmer, and teacher with a passion for all things creative and interactive.
-         I have an M.S. in Creative Technologies and Design, and a B.S. in Computer Science. I have a unique combination 
-         of creative and technical skills, as well as research and education experience, enabling me to tackle a diverse 
-         set of creative projects.-->
-            <!--<img src="./img/heart.png" width=600px>-->
-
+            <!--<p class="intro-text">UI/UX Designer & Researcher</p>-->
           </div>
         </div>
-
-
       </div>
     </div>
   </header>
 
-
-  <section class="download bg-primary text-center" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h1 class="mb5 intro-header">Hi, I'm Annie.</h1>
-
-          <p class="about-text">I am a designer with a passion for all things creative and interactive.
-          I have an M.S. in Creative Technologies and Design, and a B.S. in Computer Science. I have a unique combination 
-          of design, development, and research expertise that enable me to tackle a diverse 
-          set of user experience projects. <!--I am currently seeking a position as a User Experience Designer.--></p>
-          <h2 class="section-heading"></h2>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="p-0" id="portfolio">
+  <section class="p-0 portfolio-section" id="portfolio">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="portfolio-box" href="/projects/thecell">
               <img class="img-fluid" src="img/cell.jpg" alt="">
               <div class="portfolio-box-caption">
@@ -171,7 +118,7 @@
             </a>
           </div>
 
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="portfolio-box" href="/projects/arcadia/">
               <img class="img-fluid" src="img/arcadia.png" alt="">
               <div class="portfolio-box-caption">
@@ -188,7 +135,7 @@
         </div>
 
 
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
           <a class="portfolio-box" href="/projects/blockytalky/">
               <img class="img-fluid" src="img/blockytalky.png" alt="">
               <div class="portfolio-box-caption">
@@ -204,7 +151,7 @@
             </a>
           </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <a class="portfolio-box" href="/projects/avplayground/">
                 <img class="img-fluid" src="img/avplayground.png" alt="">
                 <div class="portfolio-box-caption">
@@ -220,7 +167,7 @@
               </a>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
               <a class="portfolio-box" href="/projects/animalviz/">
                   <img class="img-fluid" src="img/dv.png" alt="">
                   <div class="portfolio-box-caption">
@@ -236,7 +183,7 @@
                 </a>
               </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
               <a class="portfolio-box" href="/projects/theshow/">
                   <img class="img-fluid" src="img/theshow.png" alt="">
                   <div class="portfolio-box-caption">
@@ -252,7 +199,7 @@
                 </a>
               </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <a class="portfolio-box" href="/projects/webdmx">
                 <img class="img-fluid" src="img/lightingeditor-thumbnail.png" alt="">
                 <div class="portfolio-box-caption">
@@ -268,7 +215,7 @@
             </a>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
               <a class="portfolio-box" href="/projects/umc">
                   <img class="img-fluid" src="img/umc2.png" alt="">
                   <div class="portfolio-box-caption">
@@ -283,7 +230,7 @@
                   </div>
                 </a>
               </div>
-          <!--<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <!--<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <a class="portfolio-box" href="">
                 <img class="img-fluid" src="img/pi.png" alt="">
                 <div class="portfolio-box-caption">
@@ -298,7 +245,7 @@
             </a>
             </div>-->
 
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <a class="portfolio-box" href="http://authenticexpressioncounseling.com/" target="_blank">
                 <img class="img-fluid" src="img/authenticexpression.png" alt="">
                 <div class="portfolio-box-caption">
@@ -314,7 +261,7 @@
               </a>
             </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <a class="portfolio-box" href="https://innerwisdomtherapy.com" target="_blank">
                 <img class="img-fluid" src="img/therapy2.png" alt="">
                 <div class="portfolio-box-caption">
@@ -330,7 +277,7 @@
               </a>
             </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <a class="portfolio-box" href="https://thenovakicks.com" target="_blank">
                 <img class="img-fluid" src="img/novakicks.png" alt="">
                 <div class="portfolio-box-caption">
@@ -346,7 +293,7 @@
               </a>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
               <a class="portfolio-box" href="https://playfulcomputation.group" target="_blank">
                   <img class="img-fluid" src="img/lpc.png" alt="">
                   <div class="portfolio-box-caption">
@@ -362,7 +309,7 @@
                 </a>
               </div>
 
-              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <a class="portfolio-box" href="http://libbydigitalmedia.art/studentwork/" target="_blank">
                     <img class="img-fluid" src="img/libby.png" alt="">
                     <div class="portfolio-box-caption">
@@ -378,7 +325,7 @@
                   </a>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                   <a class="portfolio-box" href="/projects/tubular/">
                       <img class="img-fluid" src="img/tubular.png" alt="">
                       <div class="portfolio-box-caption">
@@ -394,7 +341,7 @@
                   </a>
                   </div>
 
-                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <a class="portfolio-box" href="/projects/heartflush">
                         <img class="img-fluid" src="img/toilet.jpg" alt="Heart-rate activated toilet flusher">
                         <div class="portfolio-box-caption">
@@ -410,7 +357,7 @@
                       </a>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                       <a class="portfolio-box" href="https://rustynymph.github.io/reverend-charger-290-customizer/" target="_blank">
                           <img class="img-fluid" src="img/guitars.png" alt="">
                           <div class="portfolio-box-caption">
@@ -427,7 +374,7 @@
                       </div>
 
 
-                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                         <a class="portfolio-box" href="/projects/interplanetary/">
                             <img class="img-fluid" src="img/interplanetary.jpg" alt="">
                             <div class="portfolio-box-caption">
@@ -443,7 +390,7 @@
                           </a>
                         </div>
 
-                  <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <a class="portfolio-box" href="/projects/rockblend/">
                         <img class="img-fluid" src="img/rockblend.png" alt="">
                         <div class="portfolio-box-caption">
@@ -459,7 +406,7 @@
                       </a>
                     </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                   <a class="portfolio-box" href="/projects/metamorphosis">
                       <img class="img-fluid" src="img/museum.png" alt="">
                       <div class="portfolio-box-caption">
@@ -475,6 +422,22 @@
                     </a>
                   </div>
 
+      </div>
+    </div>
+  </section>
+
+  <section class="download text-center" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h1 class="mb5 intro-header">Hi, I'm Annie.</h1>
+
+          <p class="about-text">I am a designer with a passion for all things creative and interactive.
+          I have an M.S. in Creative Technologies and Design, and a B.S. in Computer Science. I have a unique combination 
+          of design, development, and research expertise that enable me to tackle a diverse 
+          set of user experience projects. <!--I am currently seeking a position as a User Experience Designer.--></p>
+          <h2 class="section-heading"></h2>
+        </div>
       </div>
     </div>
   </section>

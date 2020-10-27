@@ -81,6 +81,26 @@ p.contact-text {
 
 
 header.masthead {
+  height: 25vh !important;
+  min-height: 300px !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 25vh !important;
+    min-height: 300px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.header-content {
+  margin-top: 50px !important;
+  margin-bottom: auto !important;
+}
+
+header.masthead {
     background-color: none;
     background-image: none;
 }
@@ -95,6 +115,8 @@ h1.project-heading-title {
 .nav-link {
   color:rgba(255, 255, 255, 0.7) !important;
 }
+
+
 
 #mainNav .navbar-brand {
     color: #f20081;
@@ -193,6 +215,12 @@ a:hover, a:focus {
 
 .section.features {
     background-color: none;
+}
+
+#about {
+  padding: 15%;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 #publications {
@@ -377,6 +405,7 @@ h1.mb5 {
 section.download {
   position: relative;
   padding: 80px 0;
+  background-color: #1e1e1e !important;
 }
 
 
@@ -476,6 +505,10 @@ header.project-masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
+}
+
+section.portfolio-section {
+  background-color: #101010 !important;
 }
 
 header.project-masthead.arcadia {

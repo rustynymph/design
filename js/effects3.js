@@ -9,7 +9,8 @@ function setup() {
 	//canvas_width = windowWidth;
     //canvas_height = $(document).height();
     canvas_width = windowWidth;
-    canvas_height = windowHeight;
+    //canvas_height = windowHeight; // best for full screen
+    canvas_height = 350;
     cnv = createCanvas(canvas_width, canvas_height);
     cnv.position(0, 0);
     cnv.style('z-index', '-3');
@@ -60,7 +61,8 @@ function draw() {
 
 function windowResized() {
     canvas_width = windowWidth;
-    canvas_height = windowHeight;
+    //canvas_height = windowHeight;
+    canvas_height = 350;
     resizeCanvas(canvas_width, canvas_height);
 
 	ox = width / 2;
