@@ -15,13 +15,21 @@ body {
 }
 
 .portfolio-button {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 1rem;
+  font-family: 'Source Code', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: .8rem;
   letter-spacing: 2px;
   font-weight: 300;  
   color: #ffffff;
   background-color: #000000;
   border: #ffffff;
+  border-style: solid;
+  margin: 5px;
+}
+
+.portfolio-button:hover {
+  color: #dddddd;
+  background-color: #1e1e1e;
+  border: #dddddd;
   border-style: solid;
 }
 
