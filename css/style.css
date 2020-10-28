@@ -3,6 +3,28 @@ body {
   background-color: rgb(29, 29, 29);
 }
 
+.casestudy {
+  padding: 0px;
+  vertical-align: top;
+}
+
+.v-top {
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+}
+
+.portfolio-button {
+  font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 300;  
+  color: #ffffff;
+  background-color: #000000;
+  border: #ffffff;
+  border-style: solid;
+}
+
 p {
     color: #e3e3e3;
     /*font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';*/
@@ -79,21 +101,20 @@ p.contact-text {
   }
 }
 
+h6.casestudy-subhead {
+  font-family: 'Source Code Pro', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: bold;
+}
 
 header.masthead {
-  height: 25vh !important;
+  height: 50vh !important;
   min-height: 300px !important;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
-@media (min-width: 992px) {
-  header.masthead {
-    height: 25vh !important;
-    min-height: 300px !important;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-}
+
 
 .header-content {
   margin-top: 50px !important;
@@ -294,6 +315,11 @@ h3.skills-header {
 .social-icons a {
   padding: 10px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-black {
+  color: #000000 !important;
+  text-decoration: none;
 }
 
 .icon-blue:hover {
