@@ -467,12 +467,11 @@ section.download {
 }
 
 .boxspace {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 
 .portfolio-box {
   position: relative;
@@ -606,6 +605,12 @@ section.download {
   p { 
     font-size: .7rem;
   }
+  .boxspace {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  } 
 }
 
 /* For Tablets */
@@ -616,12 +621,18 @@ section.download {
   .banner-inits {
     width: 40px;
   }
+  .boxspace {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  } 
 }
 
 @media screen and (min-width: 780px) and (max-width: 991px) {
   .banner-inits {
     width: 40px;
-  }
+  } 
 }
 
 @media screen and (min-width: 991px) {
