@@ -15,7 +15,8 @@ body {
 }
 
 .banner-img {
-  padding-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 
 .portfolio-button {
@@ -118,6 +119,11 @@ h6.casestudy-subhead {
   font-size: 1.25rem;
   color: #ffffff;
   font-weight: bold;
+}
+
+header.custom-masthead {
+  position: relative;
+  width: 100%;
 }
 
 header.masthead {
