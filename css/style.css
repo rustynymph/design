@@ -473,19 +473,6 @@ section.download {
   margin-bottom: 20px;
 }
 
-.portfolio-custom-title {
-  font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.25rem;
-  color: #fff;
-  text-align: center;  
-}
-
-.portfolio-custom-caption {
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: .75rem;
-  color: #aaaaaa;
-  text-align: center;
-}
 
 .portfolio-box {
   position: relative;
@@ -543,6 +530,72 @@ section.download {
 .img-fluid {
   min-width: 100%;
   height: auto;
+}
+
+/* custom portfolio box stuff */
+
+.portfolio-custom-box .portfolio-custom-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(20, 20, 20, 0.9);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.portfolio-custom-box-title {
+  font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.25rem;
+  color: #fff;
+  text-align: center;  
+}
+
+.portfolio-custom-box:hover {
+  text-decoration: none;
+}
+
+
+.portfolio-custom-box:hover .portfolio-custom-box-caption {
+  opacity: .6;
+}
+
+.portfolio-custom-box {
+  position: relative;
+  display: inline-block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.portfolio-custom-box-caption {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: .75rem;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.portfolio-custom-box-description {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: .75rem;
+  color: #aaaaaa;
+  text-align: center;  
+}
+
+.portfolio-custom-box-overlay-content {
+  font-weight: 800;
+}
+
+.portfolio-custom-box .portfolio-custom-box-caption .portfolio-custom-box-overlay-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
 }
 
 /* For Mobile */
