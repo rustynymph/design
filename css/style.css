@@ -466,6 +466,26 @@ section.download {
   background-color: #1e1e1e !important;
 }
 
+.boxspace {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio-custom-title {
+  font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.25rem;
+  color: #fff;
+  text-align: center;  
+}
+
+.portfolio-custom-caption {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: .8rem;
+  color: #bbbbbb;
+  text-align: center;
+}
 
 .portfolio-box {
   position: relative;
