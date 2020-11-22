@@ -3,6 +3,10 @@ body {
   background-color: rgb(29, 29, 29);
 }
 
+a.custom-link {
+  color: rgba(12, 204, 207, 1);
+}
+
 .casestudy {
   padding: 0px;
   vertical-align: top;
