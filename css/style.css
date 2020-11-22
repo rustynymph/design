@@ -761,6 +761,15 @@ header.project-masthead.tubular {
   background-size: cover;
 }
 
+header.project-masthead.petproject {
+  background: url("/img/petproject.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 header.project-masthead.avplayground {
   background: url("/img/uncompressed/avplayground.png");
   background-position: center center;
