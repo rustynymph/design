@@ -43,7 +43,7 @@ function draw() {
         var yoff = map(sin(t), -1, 1, 0, noiseMax);
 
         var n = noise(xoff, yoff, zoff);
-        var r = map(n, 0, 1, 0, height * 1);
+        var r = map(n, 0, 1, 0, height * 1.25);
         var x = r * cos(t);
         var y = r * sin(t);
         vertex(x, y);
