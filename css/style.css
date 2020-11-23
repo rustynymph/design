@@ -23,6 +23,7 @@ button.view-case-study {
   font-size: 16px;  
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif' !important; 
   transform: translateY(-50%);
+  outline: none;
 }
 
 .v-top {
