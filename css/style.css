@@ -7,6 +7,10 @@ a.custom-link {
   color: rgba(12, 204, 207, 1);
 }
 
+.dropshadowimg {
+  box-shadow: -5px 5px 5px #0f0f0f;
+}
+
 .casestudy {
   padding: 0px;
   vertical-align: top;
