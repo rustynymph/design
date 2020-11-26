@@ -140,6 +140,10 @@ footer {
     color: #fafafa !important;
     border-top-left-radius:30%;
     border-top-right-radius:30%;
+    background-image: url("/assets/img/mountains.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 417px 300px;
 }
 
 .footer-text {
