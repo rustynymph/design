@@ -63,6 +63,7 @@ a.nav-link:hover {
 #skills {
     background-color: #0b1036 !important;
     color: #fff0f5 !important;
+    font-size: .8rem;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
     border-top-left-radius:0%;
