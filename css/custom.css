@@ -525,6 +525,7 @@ header.project-masthead.arcadia {
     .masthead {
       border-bottom-left-radius:30%;
       border-bottom-right-radius:30%;
+      padding-top: 80px;
     }
   }
 
@@ -532,6 +533,7 @@ header.project-masthead.arcadia {
     .masthead {
       border-bottom-left-radius:0%;
       border-bottom-right-radius:0%;
+      padding-top: 74px;
     }
     footer {
       border-top-left-radius:0%;
