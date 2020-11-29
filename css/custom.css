@@ -385,6 +385,11 @@ h1.project-heading-title {
   font-size: 1.25rem;
 }
 
+.largest-caption {
+  color: #0b1036;
+  font-size: 1.75rem;
+}
+
 .casestudy-section {
     padding-top: 20px;
     padding-bottom: 20px;
