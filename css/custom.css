@@ -534,6 +534,8 @@ header.project-masthead.arcadia {
     background-size: cover;
   }
 
+  
+
   @media (max-width: 992px) {
     .masthead {
       border-bottom-left-radius:30%;
