@@ -286,6 +286,14 @@ p.portfolio-item-keywords {
     font-weight: 100;
 }
 
+p.portfolio-title-keywords {
+    color: #363d758e;
+    font-size: .8rem;
+    padding-bottom: 0;
+    font-weight: 100;
+    font-style: italic;
+}
+
 .skill-category {
     font-size: 1.25rem;
 }
@@ -370,6 +378,11 @@ h1.project-heading-title {
     font-style: italic;
     padding-top: 15px;
     padding-bottom: 5px;
+}
+
+.larger-caption {
+  color: #0b1036;
+  font-size: 1.25rem;
 }
 
 .casestudy-section {
