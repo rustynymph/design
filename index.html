@@ -689,6 +689,10 @@
             window.addEventListener("resize", windowResizedCustom);
             positionHumanWord();
 
+            $( document ).ready(function() {
+                positionHumanWord();
+            });
+
             var svgs = document.getElementsByTagName("svg");
             for (var i = 0; i < svgs.length; i++) {
                 var bbox = svgs[i].getBBox();
