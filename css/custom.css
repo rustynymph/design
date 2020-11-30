@@ -407,14 +407,14 @@ h6.casestudy-subhead {
 
 .header-description {
     color: #fafafa;
-    text-shadow: 2px 2px 8px #222222;
+    text-shadow: 2px 2px 8px #0b1036;
     font-weight: 300;
     z-index: 1;
     position: relative; 
 }
 
 header.project-masthead.arcadia {
-    background: url("/assets/img/arcadiatableheadertransparent.png");
+    background: url("/assets/img/arcadiatableheaderdark.png");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
