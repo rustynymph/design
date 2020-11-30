@@ -86,8 +86,17 @@
               </p>
               <center>
                 <figure>
-                  <img src="/assets/img/icosphere.png" alt="An icosphere." width="150" onmouseover="rollover(this)" onmouseout="mouseaway(this)">
-                  <figcaption class="caption">Icospheres are the objects users interact with to control which instruments trigger on different beats.</figcaption>
+                  <figcaption class="caption">
+                    Icospheres are the objects users interact with to control which instruments trigger on different beats.
+                  </figcaption>
+                  <img src="/assets/img/icosphere.png" alt="An icosphere." width="150">
+                  <img src="/assets/img/icospheresemiglow.png" alt="An icosphere." width="150">
+                  <img src="/assets/img/icosphereglow.png" alt="An icosphere." width="150">
+                  <figcaption class="caption">
+                    A non-glowing icosphere indicates that a music sequencer beat is not active.<br>
+                    A glowing, but transparent icosphere indicates where the "first beat" is on a given instrument pedal (but it is not active until clicked).<br>
+                    A glowing and opaque icosphere means the user has activated that beat and will hear its audio playback.
+                  </figcaption>
                 </figure>
               </center>
             </div>
@@ -182,17 +191,6 @@
 <!-- Main Container Ends -->
 <div class="copyright py-4 text-center text-white"></div>
 
-<script type="text/javascript">
-
-  function rollover(my_image) {
-      my_image.src = '/assets/img/icosphereglow.png';
-  }
-
-  function mouseaway(my_image) {
-      my_image.src = '/assets/img/icosphere.png';
-  }
-
-</script>
 
 </body>
 </html>
