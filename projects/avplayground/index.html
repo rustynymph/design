@@ -84,6 +84,12 @@
               <p>
                 As electronic music has made its way into the mainstream, the popularity of music production tools for both professional and amateur use has grown. Although the users of music technology are becoming more prevalent and diverse, there have been very few innovations in their user interfaces. The onset of high-quality, consumer virtual reality has allowed for the development of unique user interfaces that are able to make use of an interactive 3D space, as opposed to a standard 2D interface. Audiovisual Playground is a 3D virtual reality music application my collaborators and I developed for the HTC VIVE. Audiovisual Playground builds off of a programmable music device called a sequencer, and extends its design metaphors to a large-scale, 3D environment.
               </p>
+              <center>
+                <figure>
+                  <img src="/assets/img/icosphere.png" alt="An icosphere." width="150" onmouseover="rollover(this)" onmouseout="mouseaway(this)">
+                  <figcaption class="caption">Icospheres are the objects users interact with to control which instruments trigger on different beats.</figcaption>
+                </figure>
+              </center>
             </div>
           </div>
 
@@ -175,6 +181,18 @@
 </div>
 <!-- Main Container Ends -->
 <div class="copyright py-4 text-center text-white"></div>
+
+<script type="text/javascript">
+
+  function rollover(my_image) {
+      my_image.src = '/assets/img/icosphereglow.png';
+  }
+
+  function mouseaway(my_image) {
+      my_image.src = '/assets/img/icosphere.png';
+  }
+
+</script>
 
 </body>
 </html>
