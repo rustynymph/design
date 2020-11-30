@@ -413,6 +413,13 @@ h6.casestudy-subhead {
     position: relative; 
 }
 
+body.project-arcadia {
+  background: url("/assets/img/markerback1.png"), url("/assets/img/markerback2.png");
+  background-position: 0px 100px, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 682px 600px, 682px 600px;
+}
+
 header.project-masthead.arcadia {
     background: url("/assets/img/arcadiatableheaderdark.png");
     background-position: center center;
