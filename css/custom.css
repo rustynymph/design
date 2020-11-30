@@ -413,6 +413,10 @@ h6.casestudy-subhead {
     position: relative; 
 }
 
+.roundedimg {
+  border-radius: 10px;
+}
+
 body.project-arcadia {
   background: url("/assets/img/markerback1.png"), url("/assets/img/markerback2.png");
   background-position: 0px 100px, right bottom;
