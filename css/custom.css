@@ -398,12 +398,25 @@ h1.project-heading-title {
     color: #0b1036;
 }
 
+div.casestudy-card {
+  background-color: transparent;
+  border-style: none;
+  padding: 20px;
+}
+
 h6.casestudy-subhead {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 1.25rem;
     color: #0b1036;
     font-weight: bold;
   }
+
+h5.casestudy-subhead {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 1.75rem;
+  color: #0b1036;
+  font-weight: bold;  
+}
 
 .header-description {
     color: #fafafa;
