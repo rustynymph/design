@@ -296,6 +296,15 @@ p.portfolio-title-keywords {
 
 .skill-category {
     font-size: 1.25rem;
+    font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+    color: #ed9db8;
+}
+
+.skill-subcategory {
+  font-size: 1.1rem;
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', 'sans-serif';
+  font-weight: bold;
+  color: #92ccae;
 }
 
 p.publication a {
@@ -315,6 +324,23 @@ figure {
     display: inline-block;
   }
   
+.center-list {
+  text-align: center;
+}
+
+.skills-list {
+  padding-top: 5px;
+  display: inline-block; 
+  text-align: left; 
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: light;
+}
+
+.skills-list li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
 .caption {
     color: #0b1036;
     font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
@@ -402,6 +428,11 @@ div.casestudy-card {
   background-color: transparent;
   border-style: none;
   padding: 20px;
+}
+
+div.skills-card {
+  background-color: transparent;
+  border-style: none;
 }
 
 h6.casestudy-subhead {
@@ -583,7 +614,7 @@ header.project-masthead.arcadia {
       border-top-left-radius:0%;
       border-top-right-radius:0%;
     }
-    .skills {
+    #skills {
       border-bottom-left-radius:0%;
       border-bottom-right-radius:0%;
       border-top-left-radius:0%;
