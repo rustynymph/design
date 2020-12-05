@@ -74,10 +74,10 @@ a.nav-link:hover {
     border-top-right-radius:50%;
     padding-top: calc(2rem + 74px);
     padding-bottom: calc(4rem + 74px);
-    background-image: url("/assets/img/skillsnosplats.png");
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 492px 400px;
+    /*background-image: url("/assets/img/skillsnosplats.png");*/
+    /*background-position: right bottom;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 492px 400px;*/
 }
 
 #publications {
@@ -304,12 +304,14 @@ p.portfolio-title-keywords {
   font-size: 1.1rem;
   font-family: 'Lato', 'Helvetica Neue', 'Arial', 'sans-serif';
   font-weight: bold;
-  color: #92ccae;
+  color: #a0adde;
+  text-align: left;
 }
 
 p.publication a {
     color: rgba(0, 11, 107, 1);
     transition: 0.3s;
+    font-size: 1rem;
 }
 
 p.publication a:hover {
@@ -324,14 +326,12 @@ figure {
     display: inline-block;
   }
   
-.center-list {
-  text-align: center;
-}
 
 .skills-list {
   padding-top: 5px;
   display: inline-block; 
   text-align: left; 
+  padding-left: 20px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: light;
 }
@@ -424,6 +424,10 @@ h1.project-heading-title {
     color: #0b1036;
 }
 
+.portfolio-other {
+  padding-top: 30px;
+}
+
 div.casestudy-card {
   background-color: transparent;
   border-style: none;
@@ -433,6 +437,28 @@ div.casestudy-card {
 div.skills-card {
   background-color: transparent;
   border-style: none;
+}
+
+div.other-projects-card {
+  background-color: transparent;
+  border-style: none;
+  padding: 5px; 
+  border-radius: 0px;
+
+}
+
+div.other-projects-card h2 {
+  font-family: 'Abel', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: #0b1036;
+}
+
+div.other-projects-card .portfolio-item-description {
+  font-size: .8rem;
+}
+
+div.other-projects-card a:hover {
+  text-decoration: none;
 }
 
 h6.casestudy-subhead {
