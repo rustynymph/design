@@ -9,10 +9,10 @@ body {
     padding-bottom: 11rem;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
-    background-image: url("/assets/img/workfromhomecat3.png");
+    background-image: url("/assets/img/workfromhomecatnosplats.png");
     background-position: right bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
-    background-size: 678px 300px;
+    background-size: 621px 275px;
 }
 
 header.project-masthead {
@@ -74,7 +74,7 @@ a.nav-link:hover {
     border-top-right-radius:50%;
     padding-top: calc(2rem + 74px);
     padding-bottom: calc(4rem + 74px);
-    background-image: url("/assets/img/skills-transparent2.png");
+    background-image: url("/assets/img/skillsnosplats.png");
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: 492px 400px;
@@ -140,7 +140,7 @@ footer {
     color: #fafafa !important;
     border-top-left-radius:30%;
     border-top-right-radius:30%;
-    background-image: url("/assets/img/mountains.png");
+    background-image: url("/assets/img/mountainsnosplats.png");
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: 417px 300px;
