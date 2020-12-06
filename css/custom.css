@@ -9,10 +9,10 @@ body {
     padding-bottom: 11rem;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
-    background-image: url("/assets/img/workfromhomecatnosplats.png");
+    background-image: url("/assets/img/cat.png");
     background-position: right bottom; /*Positioning*/
     background-repeat: no-repeat; /*Prevent showing multiple background images*/
-    background-size: 621px 275px;
+    background-size: 500px 250px;
 }
 
 header.project-masthead {
