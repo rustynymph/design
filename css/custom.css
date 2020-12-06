@@ -231,6 +231,13 @@ a.svg-link:hover text {
   background-color: #fff0f5;
 }
 
+.portfolio-item {
+  padding: 0px;
+  margin: 0px;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
     background-color: rgba(255, 240, 245, 0.5);
 }
@@ -295,8 +302,9 @@ p.portfolio-title-keywords {
 }
 
 .skill-category {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
     color: #ed9db8;
 }
 
@@ -362,6 +370,9 @@ h1.project-heading-title {
     font-size: 4rem;  
   }
 
+.img-fluid {
+  width: 100% !important;
+}
 
 #inits-img {
   position: relative;
