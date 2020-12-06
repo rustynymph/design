@@ -58,13 +58,32 @@
 
 <body class="project-arcadia">
 
-  <header class="project-masthead arcadia">
+  <!--<header class="project-masthead arcadia">
     <div class="container h-100" id="canvascontainer">
       <div class="row h-100">
         <div class="col-lg-12 my-auto">
           <div class="header-content mx-auto text-center">
             <h1 class="project-heading-title">ARcadia</h1>
           </div>
+        </div>
+      </div>
+    </div>
+  </header>-->
+
+  <header class="">
+    <div class="container h-100 pt-10 mt-5 mb-0 pt-0" id="canvascontainer">
+      <h5 class="project-header">ARcadia</h5>
+      <div class="row casestudy-section">
+        <div class="col-lg-6 col-md-12 col-sm-12 my-top">
+          <p>I led the design and research of ARcadia at the Laboratory for Playful Computation in Boulder, CO, and at Microsoft Research in Redmond, WA.</p>
+          <p>ARcadia brings paper prototypes to life through the use of marker-based augmented reality (AR). With ARcadia, people can turn real-world tangible objects into controllers for music, IoT devices, lights, and more. ARcadia empowers novice technology designers to rapidly construct and iterate on these interactive prototypes.</p>
+       
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 my-top">
+          <figure>
+            <img class="dropshadowimg" src="/assets/img/arcadialights.gif" alt="Photograph of an ARcadia controller for an RGB light" height="200">
+          </figure>
+
         </div>
       </div>
     </div>
@@ -75,79 +94,102 @@
 
 	<section class="project-description">
 
-        <h5 class="project-header">ARcadia</h5>
-        <p class="portfolio-title-keywords">I led the design and research of ARcadia at the Laboratory for Playful Computation in Boulder, CO, and at Microsoft Research in Redmond, WA.</p>
+    <div class="row casestudy-section">
+      <div class="col-lg-12 col-md-12 col-sm-12 my-top text-center">
+        <h6 class="largest-caption">How ARcadia works</h6>
+        <br>
+        <figure>
+          <img src="/assets/img/number1.png" width="60"><br>
+          <figcaption class="caption">
+            <h6 class="larger-caption">Track objects</h6>
+            Print or draw AR markers and place them on tangible objects.
+          </figcaption>
+          <br>
+          <img src="/assets/img/arcadiaillustration-01.png" alt="Illustration of placing AR markers on physical objects" height="350">
+        </figure>
+        <figure>
+          <img src="/assets/img/number2.png" width="60"><br>
+          <figcaption class="caption">
+            <h6 class="larger-caption">Write code</h6>
+            Program how you want your interface to behave.
+          </figcaption>
+          <br>
+          <img src="/assets/img/arcadiaillustration-02.png" alt="Illustration of programming using the ARcadia web editor" height="350">
+        </figure>
+        <figure>
+          <img src="/assets/img/number3.png" width="60"><br>
+          <figcaption class="caption">
+            <h6 class="larger-caption">Start interacting!</h6>
+            Interact with the AR objects to trigger your code events!
+          </figcaption>
+          <br>
+          <img src="/assets/img/arcadiaillustration-03.png" alt="Illustration of a person interacting with their ARcadia prototype" height="350">
+        </figure>
+      </div>
+    </div>
 
+        <div class="row casestudy-section mb-0 pb-0">
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+                <h6 class="casestudy-subhead">Problem</h6>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+            <p>
+              Designing custom tangible interfaces requires <strong>complex</strong> knowledge of programming and electronics.<br>It is also <strong>expensive</strong>, and <strong>challenging</strong> for people (even experts) to iterate on their designs.
+              <br><br>
+              Many computer science and physical computing education tools are still too complex to use for students to create meaningful projects.
+            </p>
+          </div>
+        </div>
+
+        <div class="row casestudy-section mb-0 pb-0">
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+                <h6 class="casestudy-subhead">Goal</h6>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+            <p>
+              Empower novice programmers and designers to learn computer science and prototyping by creating interactive, and expressive, projects with ease and at little to no cost.<br>
+           </p>
+          </div>
+        </div>
+
+        <div class="row casestudy-section mb-0 pb-0">
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+                <h6 class="casestudy-subhead">Who ARcadia is for</h6>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+            <p>
+              ARcadia was designed for use in K-12 informal and formal computer science education settings, and for people of any age that want to turn objects into interactive controllers without prior programming experience.
+           </p>
+          </div>
+        </div>
 
         <div class="row casestudy-section">
           <div class="col-lg-12 col-md-12 col-sm-12 my-top">
-             <p>
-                ARcadia brings paper prototypes to life through the use of marker-based augmented reality (AR). With ARcadia, people can turn real-world tangible objects into controllers for music, IoT devices, lights, and more. ARcadia empowers novice technology designers to rapidly construct and iterate on these interactive prototypes.<!--<br><br>I designed ARcadia while I was working at Microsoft Research, and continued to evaluate and revise ARcadia while conducting research at the University of Colorado Boulder.-->
-                <!--<a href="https://laboratoryforplayfulcomputation.github.io/arcadia/" target="_blank">Start creating with ARcadia today.</a>-->
+                <h6 class="casestudy-subhead">Design</h6>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+              <p>
+                Paper-based prototyping techniques are commonly used by designers to express ideas before investing time and money into development. However, paper-based prototypes <strong>lack interactivity</strong>.<br><br>
+                I wanted to leverage the benefits of paper-prototyping, and add <strong>interactivity</strong> to bring paper-prototypes to life.<br><br>
+                I identified image tracking, AI, and augmented reality as technologies to accomplish this goal at little to no cost.
+                <!--Low-cost, beginner-friendly programming toolkit that enables users to turn any physical object into an interactive, tangible user interface.-->
               </p>
-          </div>
-        </div>
 
-        <div class="row casestudy-section">
-          <div class="col-lg-12 col-md-12 col-sm-12 my-top text-center">
-            <h6 class="largest-caption">Bring inanimate objects to life with ARcadia!</h6>
-            <br>
+              <center>
+                <figure>
+                  <img src="/assets/img/markers.png" alt="A few ARcadia markers" width="300">
+                  <figcaption class="caption">Users print out markers and attach them to objects to make them interactable.</figcaption>
+                </figure>
+                <figure>
+                  <img class="dropshadowimg" src="/assets/img/arcadiasetup.jpg" alt="ARcadia setup with printed markers, a webcam, and browser" width="350">
+                  <figcaption class="caption">ARcadia setup with printed markers, a webcam, and browser.</figcaption>
+                </figure>
+              </center>
 
-            <figure>
-              <img src="/assets/img/number1.png" width="60"><br>
-              <figcaption class="caption">
-                <h6 class="larger-caption">Track objects</h6>
-                Print or draw AR markers and place them on tangible objects.
-              </figcaption>
-              <br>
-              <img src="/assets/img/arcadiaillustration-01.png" alt="Illustration of placing AR markers on physical objects" height="350">
-            </figure>
-
-            <!--<img src="/assets/img/dots-02.png" height="6">-->
-
-            <figure>
-              <img src="/assets/img/number2.png" width="60"><br>
-              <figcaption class="caption">
-                <h6 class="larger-caption">Write code</h6>
-                Program how you want your interface to behave.
-              </figcaption>
-              <br>
-              <img src="/assets/img/arcadiaillustration-02.png" alt="Illustration of programming using the ARcadia web editor" height="350">
-            </figure>
-
-            <!--<img src="/assets/img/dots-02.png" height="6">-->
-
-            <figure>
-              <img src="/assets/img/number3.png" width="60"><br>
-              <figcaption class="caption">
-                <h6 class="larger-caption">Start interacting!</h6>
-                Interact with the AR objects to trigger your code events!
-              </figcaption>
-              <br>
-              <img src="/assets/img/arcadiaillustration-03.png" alt="Illustration of a person interacting with their ARcadia prototype" height="350">
-            </figure>
-          </div>
-        </div>
-
-        <div class="row casestudy-section">
-          <div class="col-lg-4 col-md-12 col-sm-12 my-top">
-                <h6 class="casestudy-subhead">Problem:</h6>
-          </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 my-top">
             <p>
-              Designing custom tangible interfaces requires complex knowledge of programming and electronics. It is also expensive, and can be challenging for people (even experts) to iterate on their designs.
-           </p>
-          </div>
-        </div>
-
-        <div class="row casestudy-section">
-          <div class="col-lg-4 col-md-12 col-sm-12 my-top">
-                <h6 class="casestudy-subhead">Goal:</h6>
-          </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 my-top">
-            <p>
-              Design a low-cost, beginner-friendly programming toolkit that enables users to turn any physical object into an interactive, tangible user interface.
-           </p>
+              ARcadia enables users to any physical object <em>interactive</em> by placing a trackable, unique barcode on it. A user can then point a webcam or phone camera at these trackable objects, which are detected by the system. In the ARcadia programming editor, users can use code blocks to develop event-driven programs that define how their interfaces behave. For example, they can write a program that says, "when this object is moved to the left, play a snare drum."<br><br>
+              By allowing users to develop programs using high-level code abstractions, and to only require a computer and basic low-cost materials &mdash; users can rapidly prototype and design novel, tangible interfaces for creative expression.
+            </p>
           </div>
         </div>
 
@@ -157,14 +199,6 @@
               <img src="/assets/img/arcadiasketches.png" alt="Preliminary use-case storyboard and low-fidelity wireframe for ARcadia" height="230">
               <figcaption class="caption">Preliminary storyboard for ARcadia's musical use-case scenario (left) and <br>a low-fidelity wireframe sketch of the ARcadia interface (right).</figcaption>
             </figure>
-            <!--<figure>
-              <img src="/img/arcadiastoryboard.jpg" height="250">
-              <figcaption class="caption">Preliminary storyboard for ARcadia's musical use-case scenario.</figcaption>
-            </figure>
-            <figure>
-              <img src="/img/arcadiawireframe.jpg" height="250">
-              <figcaption class="caption">Low-fidelity wireframe sketch of the ARcadia interface.</figcaption>
-            </figure>-->
             <figure>
             <img class="dropshadowimg" src="/assets/img/arcadiascreenshot2.png" alt="Production version of ARcadia in a web browser" height="250">
               <figcaption class="caption">Production version of ARcadia in a web browser.</figcaption>
@@ -172,35 +206,10 @@
           </div>
         </div>
 
-        <div class="row casestudy-section">
-          <div class="col-lg-4 col-md-12 col-sm-12 my-top">
-                <h6 class="casestudy-subhead">Who ARcadia is for:</h6>
-          </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 my-top">
-            <p>
-              ARcadia was designed for use in K-12 informal and formal computer science education settings, and for people of any age that want to turn objects into interactive controllers without prior programming experience.
-           </p>
-          </div>
-        </div>
+
 
         <div class="row casestudy-section">
           <div class="col-lg-12 col-md-12 col-sm-12 my-top">
-                <center>
-                  <figure>
-                    <img src="/assets/img/markers.png" alt="A few ARcadia markers" width="300">
-                    <figcaption class="caption">Users print out markers and attach them to objects to make them interactable.</figcaption>
-                  </figure>
-                  <figure>
-                    <img class="dropshadowimg" src="/assets/img/arcadiasetup.jpg" alt="ARcadia setup with printed markers, a webcam, and browser" width="350">
-                    <figcaption class="caption">ARcadia setup with printed markers, a webcam, and browser.</figcaption>
-                  </figure>
-                </center>
-
-                <h6 class="casestudy-subhead">Design:</h6>
-                  <p>
-                    ARcadia enables users to any physical object <em>interactive</em> by placing a trackable, unique barcode on it. A user can then point a webcam or phone camera at these trackable objects, which are detected by the system. In the ARcadia programming editor, users can use code blocks to develop event-driven programs that define how their interfaces behave. For example, they can write a program that says, "when this object is moved to the left, play a snare drum."<br><br>
-                    By allowing users to develop programs using high-level code abstractions, and to only require a computer and basic low-cost materials &mdash; users can rapidly prototype and design novel, tangible interfaces for creative expression.
-                  </p>
 
                   <center>
                     <figure>
@@ -239,10 +248,10 @@
         -->
 
         <div class="row casestudy-section">
-          <div class="col-lg-4 col-md-12 col-sm-12 my-top">
-                <h6 class="casestudy-subhead">Evaluation:</h6>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+                <h6 class="casestudy-subhead">Evaluation</h6>
           </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 my-top">
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
             <p>
               In August 2018, I tested ARcadia with 120 high school aged girls by facilitating an augmented reality music-making workshop. I guided workshop participants through a few introductory exercises and then they worked on projects of their choosing for one hour. I collected their project code, photographs and videos of their projects through various levels of completion, and collected participants' responses for things they "liked about ARcadia," and things they "wish ARcadia could do."
             </p>
@@ -303,10 +312,10 @@
             </div>
 
         <div class="row casestudy-section">
-          <div class="col-lg-4 col-md-12 col-sm-12 my-top">
-                <h6 class="casestudy-subhead">Design Revisions:</h6>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+                <h6 class="casestudy-subhead">Design Revisions</h6>
           </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 my-top">
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
             <p>
               To address this feedback, I designed ARcadia to contain begnner-friendly programming constructs that would enable users to connect their interfaces to other applications. To perform contextual inquiry, I interviewed designers and performing artists to gain an understanding of what interesting use cases might be, using semi-structured interviews and questionnaires. I found that in the performing arts and IoT community, it is common for creators and hackers to route input and output between multiple applications using WebRTC and OSC (two technologies that enable networked communication). I added blocks that networked over WebRTC and OSC. Below are three examples: ARcadia used to control lighting, ARcadia used as an effects pedal for a keyboard, and ARcadia used to scrub a YouTube video to alter audio and visual effects.
           </p>
@@ -337,10 +346,10 @@
 
 
         <div class="row casestudy-section">
-          <div class="col-lg-4 col-md-12 col-sm-12 my-top">
-                <h6 class="casestudy-subhead">Further Evaluation:</h6>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+                <h6 class="casestudy-subhead">Further Evaluation</h6>
           </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 my-top">
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
             <p>
               To test the new networking features of ARcadia I tested with users in situ, as well as conducted usability testing in the field at pop-up demo booths. In addition, to push the capabilities of ARcadia to the max I along with other performers testing using ARcadia as musical controllers, video game controllers, visual jockeying controllers, home automation controllers, etc.
           </p>
@@ -356,10 +365,10 @@
 
 
         <div class="row casestudy-section">
-          <div class="col-lg-4 col-md-12 col-sm-12 my-top">
-                <h6 class="casestudy-subhead">Further Revisions:</h6>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+                <h6 class="casestudy-subhead">Further Revisions</h6>
           </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 my-top">
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
             <p>
               In my evaluation I identified that some of the labels on the networking blocks were confusing, and there were too many steps required to initiate connection between devices. To address this, I redesigned the blocks such that devices could connect by name instead of having to use IP addresses or long strings of numbers and letters.
             </p>
@@ -367,10 +376,10 @@
         </div>
 
         <div class="row casestudy-section">
-          <div class="col-lg-4 col-md-12 col-sm-12 my-top">
-                <h6 class="casestudy-subhead">Conclusion:</h6>
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
+                <h6 class="casestudy-subhead">Conclusion</h6>
           </div>
-          <div class="col-lg-8 col-md-12 col-sm-12 my-top">
+          <div class="col-lg-12 col-md-12 col-sm-12 my-top">
             <p>
               Overall, ARcadia makes it much easier for non-programmers to design multimedia, interactive, networked systems.
             </p>
