@@ -340,6 +340,15 @@ p.publication a {
     font-size: 1rem;
 }
 
+h6.pub-nolink {
+  font-family: 'Lato', 'Helvetica Neue', 'Arial', 'sans-serif';
+  color: rgba(0, 11, 107, 1);
+  font-size: 1rem;  
+  padding-bottom: 0;
+  margin-bottom: 0;
+  display: block;
+}
+
 p.publication a:hover {
     color: #9e4b88;
 }
@@ -414,7 +423,8 @@ h1.project-heading-title {
   position:absolute;
 }
 
-.publication {
+p.publication {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: .8rem;
     color: #0b1036;
 }
@@ -428,7 +438,7 @@ h1.project-heading-title {
   
 .project-header-sub {
     color: #0b1036;
-    font-family: 'Open SansS', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-size: 2rem;  
     font-style: italic;
     padding-top: 15px;
