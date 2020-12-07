@@ -308,18 +308,30 @@ p.portfolio-title-keywords {
 }
 
 .skill-category {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
-    color: #ed9db8;
+    color: #fff0f5;
+    display: block;
+    padding-bottom: 10px;
 }
 
 .skill-subcategory {
   font-size: 1.1rem;
   font-family: 'Lato', 'Helvetica Neue', 'Arial', 'sans-serif';
   font-weight: bold;
-  color: #a0adde;
+  color: #ed9db8;
+  /*color: #a0adde;*/
   text-align: left;
+}
+
+.skills-section-header {
+  min-height: 120px;
+}
+
+.skill-icon {
+  display: block;
+  padding-bottom: 5px;
 }
 
 p.publication a {
@@ -343,7 +355,7 @@ figure {
 
 .skills-list {
   padding-top: 5px;
-  display: inline-block; 
+  display: block; 
   text-align: left; 
   padding-left: 20px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -644,6 +656,15 @@ header.project-masthead.arcadia {
       border-bottom-left-radius:30%;
       border-bottom-right-radius:30%;
       padding-top: 80px;
+    }
+    .skills-section-header{
+      min-height: 0px;
+    }
+    #skills {
+      border-bottom-left-radius:00%;
+      border-bottom-right-radius:0%;
+      border-top-left-radius:0%;
+      border-top-right-radius:0%;
     }
   }
 
