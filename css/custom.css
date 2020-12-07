@@ -5,8 +5,8 @@ body {
 .masthead {
     background-color: #0b1036;
     color: #141414 !important;
-    padding-top: calc(4rem + 74px);
-    padding-bottom: 11rem;
+    padding-top: calc(2rem + 74px);
+    padding-bottom: 4rem;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:0%;
     background-image: url("/assets/img/cat.png");
@@ -20,6 +20,12 @@ header.project-masthead {
     padding-top: calc(6rem + 74px);
     padding-bottom: 6rem;
   }
+
+.header-list {
+  display:block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 #mainNav {
     background-color: #2c2c2c !important;
