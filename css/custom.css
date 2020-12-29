@@ -500,6 +500,14 @@ div.other-projects-card a:hover {
   text-decoration: none;
 }
 
+h6.casestudy-subsubhead {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 1.25rem;
+  color: #0b1036;
+  font-weight: bold;
+  display: block;  
+}
+
 h6.casestudy-subhead {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 1.25rem;
