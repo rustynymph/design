@@ -522,6 +522,42 @@ h5.casestudy-subhead {
   font-weight: bold;  
 }
 
+form {
+  text-align: center;
+}
+
+.contact-form {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: .8rem;
+}
+
+.contact-form-label {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: .5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.contact-button {
+  background-color: #0b1036;
+  border: 2px solid #ffd1e0;
+  color: #ffd1e0;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  transition: 0.3s;    
+}
+
+.contact-button:hover {
+  background-color:#ffd1e0;
+  color: #0b1036;
+  border: 2px solid #ffd1e0;
+}
+
 .header-description {
     color: #fafafa;
     text-shadow: 2px 2px 8px #0b1036;
